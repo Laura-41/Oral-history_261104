@@ -1,0 +1,6 @@
+﻿event_id,doc_id,event_name,narrative_order,historical_order,result_state,factuality,confidence,boundary_note,boundary_confidence,review_status
+CRT-02-E01,CRT-02,随商震部离晋赴冀并任炮兵大队区队长,1,1,进入第三十二军特务团炮兵大队并担任相当于连长的区队长,FACT,HIGH,从阎锡山补充部队撤销、回教导团开始，以在邢台完成三十二军建制并任炮兵区队长为结束,HIGH,MODEL_CANDIDATE
+CRT-02-E02,CRT-02,九一八事变后参与抗日游行示威,2,2,军民公开表达坚决抗日和反对不抵抗的立场,FACT,HIGH,从部队招兵完成并得知九一八事变开始，以军队和群众共同上街示威为结束,HIGH,MODEL_CANDIDATE
+CRT-02-E03,CRT-02,部队驻南苑等待装备并自行整修营房生产生活,3,3,在缺少炮弹的情况下维持部队驻训和生活,FACT,HIGH,从第三十二军赴长城抗战而炮兵因无炮弹留守开始，以在南苑驻扎一年并获知炮校招生为结束,HIGH,MODEL_CANDIDATE
+CRT-02-E04,CRT-02,考入南京汤山炮兵学校第二期并完成学习,4,4,完成南京炮校第二期学习并返回第三十二军,FACT,HIGH,从获知炮校招生并准备英文和三民主义考试开始，以毕业返回部队为结束,HIGH,MODEL_CANDIDATE
+CRT-02-E05,CRT-02,与王兴纲交往并逐渐形成亲共抗日倾向,5,5,对共产党产生好感并在思想上逐渐倾向共产党,FACT,HIGH,从1931年在军部写标语时结识王兴纲开始，以1935年前后联系中断但亲共倾向形成作为阶段结果,HIGH,MODEL_CANDIDATE

@@ -1,0 +1,6 @@
+﻿process_id,event_id,event_type_id,process_text,process_normalized,evidence_segment_id,confidence
+CHF-V3-E01-PROC,CHF-V3-E01,RELATIONAL_EVENT,由谭震林实际统一指挥,由谭震林实际统一指挥,CHF-V3-01-S0004,HIGH
+CHF-V3-E02-PROC,CHF-V3-E02,MATERIAL_EVENT,抽调东进并重组作战力量,抽调东进并重组作战力量,CHF-V3-01-S0028,HIGH
+CHF-V3-E03-PROC,CHF-V3-E03,MATERIAL_EVENT,防御正面并开展游击阻击伏击,防御正面并开展游击阻击伏击,CHF-V3-01-S0054,HIGH
+CHF-V3-E04-PROC,CHF-V3-E04,MATERIAL_EVENT,护送人员物资并保障交通线,护送人员物资并保障交通线,CHF-V3-01-S0074,HIGH
+CHF-V3-E05-PROC,CHF-V3-E05,MATERIAL_EVENT,侦察路线并组织分批撤离,侦察路线并组织分批撤离,CHF-V3-01-S0153,HIGH

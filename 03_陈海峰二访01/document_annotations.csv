@@ -1,0 +1,34 @@
+﻿annotation_id,doc_id,annotation_type,annotation_text,author_or_editor,source_status,target_type,target_id,source_segment_id
+CHF-V2-01-PROFILE,CHF-V2-01,BIOGRAPHICAL_PROFILE,嘉宾名称：陈海峰（二访）（01）嘉宾身份：出生于1912年8月4日，江苏江阴前周乡东篁村人，乳名永嘉。小学毕业后在上海荣华印书馆任排字工人，1935年自发组织学徒罢工；1938年2月参加江南抗日义勇军第三路，任宣传、情报站长；1938年10月赴新四军军部教导总队学习；1939年8月毕业于新四军军医处第二期公共卫生人员训练班；1939年至1941年12月历任三支队军医处卫生巡视员、五团二营卫生指导员、五团卫生队长、新四军一师二旅五团卫生队长、皖南新四军前方医院外科病室副室长；1940年12月6日入党；1942年任新四军苏中卫生学校教务主任；1943年任一师老一团卫生队长；1945年任苏浙军区卫生部医政科长兼野战医院院长等职；1946年任华中军区第一后方医院院长；1948年8月任华东军区第一重伤医院院长；1949年8月任福州卫生局长；1982年任卫生部咨询委员会委员；2013年6月17日去世。采访时间：2010-02-27采访地点：北京和平里陈海峰家里口述资料：一校：孙康清  二校：王涛内容摘要：陈海峰讲述了自己在新四军卫训班的学习情况；卫训班的师资力量、严格的规章制度，残酷的淘汰制度；自己当年偷尸体，用作解剖实验。01陈海峰,原文编校者,EDITORIAL_PROFILE,DOCUMENT,CHF-V2-01,CHF-V2-01-S0001
+CHF-V2-01-A001,CHF-V2-01,严振衡人物注, 严振衡：（1923—1996），江苏扬州人。抗战期间，曾任新四军一师干事。解放战争时期，曾任第三野战军团长。建国后，曾任装甲兵参谋长。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-YANZHENHENG,CHF-V2-01-N001
+CHF-V2-01-A002,CHF-V2-01,蒲锦泉姓名校注, 蒲锦泉现在名叫蒲敬诠。,原文编校者,EDITORIAL_NOTE,DOCUMENT,CHF-V2-01,CHF-V2-01-N002
+CHF-V2-01-A003,CHF-V2-01,宫乃泉学历校注, 经查宫乃泉是奉天医科大学毕业。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-GONGNAIQUAN,CHF-V2-01-N003
+CHF-V2-01-A004,CHF-V2-01,啰音医学名词注, 啰音：是指呼吸音以外附加的声音，由于气管支气管或者管腔部分阻塞等病变所致。,原文编校者,EDITORIAL_NOTE,ENTITY,TERM-RALES,CHF-V2-01-N004
+CHF-V2-01-A005,CHF-V2-01,融合性天花医学名词注, 融合性天花：皮疹多，分布广泛，发展迅速，脓疱互相融合。,原文编校者,EDITORIAL_NOTE,ENTITY,DISEASE-CONFLUENT-SMALLPOX,CHF-V2-01-N005
+CHF-V2-01-A006,CHF-V2-01,吴友廉人物注, 注：吴幼莲，后改名吴友廉，1918年7月生于安徽泾县茂林，1938年10月参加新四军，卫训班毕业后任新四军军部化验员。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-WUYOULIAN,CHF-V2-01-N006
+CHF-V2-01-A007,CHF-V2-01,曾如清人物注, 曾如清：（1914—1989），江西人。抗战期间，曾任苏浙军区第四纵队政治部主任。解放战争期间，曾任三野20军58师师长兼政委。建国后，曾任志愿军副政委、江苏省军区第二政委等职。1955年被授予少将军衔。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-ZENGRUQING,CHF-V2-01-N007
+CHF-V2-01-Q0003,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0004,CHF-V2-01-S0003
+CHF-V2-01-Q0006,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0007,CHF-V2-01-S0006
+CHF-V2-01-Q0010,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0011,CHF-V2-01-S0010
+CHF-V2-01-Q0013,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0014,CHF-V2-01-S0013
+CHF-V2-01-Q0019,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0020,CHF-V2-01-S0019
+CHF-V2-01-Q0023,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0024,CHF-V2-01-S0023
+CHF-V2-01-Q0027,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0028,CHF-V2-01-S0027
+CHF-V2-01-Q0029,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0030,CHF-V2-01-S0029
+CHF-V2-01-Q0034,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0035,CHF-V2-01-S0034
+CHF-V2-01-Q0040,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0041,CHF-V2-01-S0040
+CHF-V2-01-Q0042,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0043,CHF-V2-01-S0042
+CHF-V2-01-Q0046,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0047,CHF-V2-01-S0046
+CHF-V2-01-Q0056,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0057,CHF-V2-01-S0056
+CHF-V2-01-Q0058,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0059,CHF-V2-01-S0058
+CHF-V2-01-Q0062,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0063,CHF-V2-01-S0062
+CHF-V2-01-Q0066,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0067,CHF-V2-01-S0066
+CHF-V2-01-Q0068,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0069,CHF-V2-01-S0068
+CHF-V2-01-Q0081,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0082,CHF-V2-01-S0081
+CHF-V2-01-Q0095,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0098,CHF-V2-01-S0095
+CHF-V2-01-Q0097,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0098,CHF-V2-01-S0097
+CHF-V2-01-Q0099,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0100,CHF-V2-01-S0099
+CHF-V2-01-Q0105,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0107,CHF-V2-01-S0105
+CHF-V2-01-Q0106,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0107,CHF-V2-01-S0106
+CHF-V2-01-Q0110,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0111,CHF-V2-01-S0110
+CHF-V2-01-Q0114,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0115,CHF-V2-01-S0114

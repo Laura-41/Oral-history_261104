@@ -1,0 +1,669 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/oral-history-annotation-bundle.schema.json",
+  "title": "口述史事件标注数据包",
+  "type": "object",
+  "required": [
+    "document",
+    "source_segments",
+    "events",
+    "coverage_audit"
+  ],
+  "properties": {
+    "document": {
+      "type": "object",
+      "required": [
+        "doc_id",
+        "title",
+        "source_file"
+      ],
+      "properties": {
+        "doc_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "interviewee": {
+          "type": "string"
+        },
+        "source_file": {
+          "type": "string"
+        },
+        "data_role": {
+          "enum": [
+            "DEVELOPMENT",
+            "INTERNAL_TEST",
+            "BATCH_APPLICATION",
+            "EXTERNAL_TEST",
+            "UNASSIGNED"
+          ]
+        }
+      }
+    },
+    "source_segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "segment_id",
+          "doc_id",
+          "segment_order",
+          "source_part",
+          "source_block_id",
+          "segment_type",
+          "verbatim_text"
+        ],
+        "properties": {
+          "segment_id": {
+            "type": "string"
+          },
+          "doc_id": {
+            "type": "string"
+          },
+          "segment_order": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "source_part": {
+            "type": "string"
+          },
+          "source_ref_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_block_id": {
+            "type": "string"
+          },
+          "speaker_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "speaker_type": {
+            "enum": [
+              "INTERVIEWEE",
+              "INTERVIEWER",
+              "EDITOR",
+              "OTHER",
+              "UNKNOWN"
+            ]
+          },
+          "start_offset": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "end_offset": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "segment_type": {
+            "enum": [
+              "EVENT_EVIDENCE",
+              "BACKGROUND",
+              "INTERVIEWER_PROMPT",
+              "NARRATOR_COMMENT",
+              "DOCUMENT_NOTE",
+              "OFF_TOPIC",
+              "UNCERTAIN"
+            ]
+          },
+          "verbatim_text": {
+            "type": "string"
+          },
+          "normalized_text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "review_status": {
+            "enum": [
+              "MODEL_CANDIDATE",
+              "NEEDS_REVIEW",
+              "CONFIRMED"
+            ]
+          }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_id",
+          "event_name",
+          "event_type_id",
+          "process",
+          "evidence_segment_ids"
+        ],
+        "properties": {
+          "event_id": {
+            "type": "string"
+          },
+          "event_name": {
+            "type": "string"
+          },
+          "event_type_id": {
+            "enum": [
+              "MATERIAL_EVENT",
+              "MENTAL_EVENT",
+              "RELATIONAL_EVENT",
+              "VERBAL_EVENT",
+              "BEHAVIOURAL_EVENT",
+              "EXISTENTIAL_EVENT"
+            ]
+          },
+          "process": {
+            "type": "string"
+          },
+          "narrative_order": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "historical_order": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "result_state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "factuality": {
+            "enum": [
+              "FACT",
+              "REPORTED",
+              "NEGATED",
+              "INTENDED",
+              "HYPOTHETICAL"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "HIGH",
+              "MEDIUM",
+              "LOW"
+            ]
+          },
+          "participants": {
+            "type": "array"
+          },
+          "circumstances": {
+            "type": "array"
+          },
+          "stages": {
+            "type": "array"
+          },
+          "evidence_segment_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "source_attachments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "segment_id",
+          "target_type",
+          "target_id",
+          "function"
+        ],
+        "properties": {
+          "segment_id": {
+            "type": "string"
+          },
+          "target_type": {
+            "enum": [
+              "EVENT",
+              "STAGE",
+              "DOCUMENT"
+            ]
+          },
+          "target_id": {
+            "type": "string"
+          },
+          "function": {
+            "enum": [
+              "EVIDENCE",
+              "BACKGROUND",
+              "COMMENT",
+              "INTERVIEWER_PROMPT",
+              "DOCUMENT_NOTE",
+              "OTHER_RELATED",
+              "DOCUMENT_ONLY"
+            ]
+          }
+        }
+      }
+    },
+    "event_next": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_event_id",
+          "target_event_id",
+          "basis"
+        ],
+        "properties": {
+          "source_event_id": {
+            "type": "string"
+          },
+          "target_event_id": {
+            "type": "string"
+          },
+          "basis": {
+            "enum": [
+              "explicit_time",
+              "relative_time",
+              "contextual_inference"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "HIGH",
+              "MEDIUM",
+              "LOW"
+            ]
+          }
+        }
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "entity_id",
+          "canonical_name",
+          "entity_type"
+        ],
+        "properties": {
+          "entity_id": {
+            "type": "string"
+          },
+          "canonical_name": {
+            "type": "string"
+          },
+          "entity_type": {
+            "enum": [
+              "PERSON",
+              "PLACE",
+              "ORGANIZATION",
+              "MILITARY_UNIT",
+              "HISTORICAL_EVENT",
+              "PUBLICATION",
+              "OTHER"
+            ]
+          },
+          "entity_subtype": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "authority_status": {
+            "enum": [
+              "CANONICAL",
+              "LOCAL_CANONICAL",
+              "TRANSCRIPTION_UNCERTAIN",
+              "UNRESOLVED"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "HIGH",
+              "MEDIUM",
+              "LOW"
+            ]
+          },
+          "review_status": {
+            "enum": [
+              "MODEL_CANDIDATE",
+              "NEEDS_REVIEW",
+              "CONFIRMED"
+            ]
+          }
+        }
+      }
+    },
+    "entity_mentions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "mention_id",
+          "segment_id",
+          "entity_id",
+          "mention_text",
+          "start_offset",
+          "end_offset",
+          "mention_function",
+          "source_status"
+        ],
+        "properties": {
+          "mention_id": {
+            "type": "string"
+          },
+          "segment_id": {
+            "type": "string"
+          },
+          "entity_id": {
+            "type": "string"
+          },
+          "mention_text": {
+            "type": "string"
+          },
+          "start_offset": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_offset": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "mention_function": {
+            "enum": [
+              "PARTICIPANT",
+              "CIRCUMSTANCE",
+              "MENTION_ONLY",
+              "ANNOTATION_SUBJECT",
+              "PROFILE_FACT",
+              "SPEAKER"
+            ]
+          },
+          "source_status": {
+            "enum": [
+              "ORAL_TESTIMONY",
+              "EDITORIAL_PROFILE",
+              "EDITORIAL_NOTE",
+              "INTERVIEWER_QUESTION",
+              "STRUCTURAL_INFERENCE",
+              "MIXED"
+            ]
+          }
+        }
+      }
+    },
+    "entity_aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "alias_id",
+          "entity_id",
+          "alias_text",
+          "alias_type"
+        ],
+        "properties": {
+          "alias_id": {
+            "type": "string"
+          },
+          "entity_id": {
+            "type": "string"
+          },
+          "alias_text": {
+            "type": "string"
+          },
+          "alias_type": {
+            "enum": [
+              "ALIAS",
+              "ABBREVIATION",
+              "HISTORICAL_NAME",
+              "TRANSCRIPTION_VARIANT",
+              "DESCRIPTIVE_NAME"
+            ]
+          }
+        }
+      }
+    },
+    "entity_relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "relation_id",
+          "source_entity_id",
+          "relation_type",
+          "target_entity_id",
+          "source_status"
+        ],
+        "properties": {
+          "relation_id": {
+            "type": "string"
+          },
+          "source_entity_id": {
+            "type": "string"
+          },
+          "relation_type": {
+            "enum": [
+              "BORN_IN",
+              "WORKED_AT",
+              "STUDIED_AT",
+              "MEMBER_OF",
+              "HELD_POSITION_AT",
+              "PART_OF",
+              "LOCATED_IN",
+              "RELATED_TO",
+              "POSSIBLY_SAME_AS"
+            ]
+          },
+          "target_entity_id": {
+            "type": "string"
+          },
+          "source_status": {
+            "enum": [
+              "ORAL_TESTIMONY",
+              "EDITORIAL_PROFILE",
+              "EDITORIAL_NOTE",
+              "INTERVIEWER_QUESTION",
+              "STRUCTURAL_INFERENCE",
+              "MIXED"
+            ]
+          }
+        }
+      }
+    },
+    "event_times": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_time_id",
+          "event_id",
+          "raw_text",
+          "precision",
+          "certainty",
+          "source_status"
+        ],
+        "properties": {
+          "event_time_id": {
+            "type": "string"
+          },
+          "event_id": {
+            "type": "string"
+          },
+          "raw_text": {
+            "type": "string"
+          },
+          "normalized_start": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "normalized_end": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "precision": {
+            "enum": [
+              "DAY",
+              "MONTH",
+              "YEAR",
+              "INTERVAL",
+              "RELATIVE",
+              "UNKNOWN"
+            ]
+          },
+          "certainty": {
+            "enum": [
+              "EXACT",
+              "APPROXIMATE",
+              "OPEN_START",
+              "OPEN_END",
+              "UNCERTAIN"
+            ]
+          },
+          "source_status": {
+            "enum": [
+              "ORAL_TESTIMONY",
+              "EDITORIAL_PROFILE",
+              "EDITORIAL_NOTE",
+              "INTERVIEWER_QUESTION",
+              "STRUCTURAL_INFERENCE",
+              "MIXED"
+            ]
+          }
+        }
+      }
+    },
+    "time_expressions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "time_expression_id",
+          "segment_id",
+          "raw_text",
+          "precision",
+          "expression_type",
+          "certainty",
+          "start_offset",
+          "end_offset",
+          "source_status"
+        ],
+        "properties": {
+          "time_expression_id": {
+            "type": "string"
+          },
+          "segment_id": {
+            "type": "string"
+          },
+          "raw_text": {
+            "type": "string"
+          },
+          "normalized_start": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "normalized_end": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "precision": {
+            "enum": [
+              "DAY",
+              "MONTH",
+              "YEAR",
+              "INTERVAL",
+              "RELATIVE",
+              "UNKNOWN"
+            ]
+          },
+          "expression_type": {
+            "enum": [
+              "DATE",
+              "INTERVAL"
+            ]
+          },
+          "certainty": {
+            "enum": [
+              "EXACT",
+              "APPROXIMATE",
+              "OPEN_START",
+              "OPEN_END",
+              "UNCERTAIN"
+            ]
+          },
+          "start_offset": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_offset": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "source_status": {
+            "enum": [
+              "ORAL_TESTIMONY",
+              "EDITORIAL_PROFILE",
+              "EDITORIAL_NOTE",
+              "INTERVIEWER_QUESTION",
+              "STRUCTURAL_INFERENCE",
+              "MIXED"
+            ]
+          }
+        }
+      }
+    },
+    "coverage_audit": {
+      "type": "object",
+      "required": [
+        "doc_id",
+        "total_characters",
+        "segmented_characters",
+        "uncovered_characters",
+        "coverage_rate"
+      ],
+      "properties": {
+        "doc_id": {
+          "type": "string"
+        },
+        "total_characters": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "segmented_characters": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "uncovered_characters": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "coverage_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    }
+  }
+}

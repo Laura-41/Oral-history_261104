@@ -1,0 +1,206 @@
+{
+  "data_role": [
+    "DEVELOPMENT",
+    "INTERNAL_TEST",
+    "BATCH_APPLICATION",
+    "EXTERNAL_TEST",
+    "UNASSIGNED"
+  ],
+  "include_in_study": [
+    "YES",
+    "NO",
+    "TO_CONFIRM"
+  ],
+  "review_status": [
+    "MODEL_CANDIDATE",
+    "NEEDS_REVIEW",
+    "CONFIRMED"
+  ],
+  "speaker_type": [
+    "INTERVIEWEE",
+    "INTERVIEWER",
+    "EDITOR",
+    "OTHER",
+    "UNKNOWN"
+  ],
+  "segment_type": [
+    "EVENT_EVIDENCE",
+    "BACKGROUND",
+    "INTERVIEWER_PROMPT",
+    "NARRATOR_COMMENT",
+    "DOCUMENT_NOTE",
+    "OFF_TOPIC",
+    "UNCERTAIN"
+  ],
+  "target_type": [
+    "EVENT",
+    "STAGE",
+    "DOCUMENT"
+  ],
+  "annotation_target_type": [
+    "EVENT",
+    "STAGE",
+    "DOCUMENT",
+    "ENTITY",
+    "SOURCE_SEGMENT"
+  ],
+  "source_function": [
+    "EVIDENCE",
+    "BACKGROUND",
+    "COMMENT",
+    "INTERVIEWER_PROMPT",
+    "DOCUMENT_NOTE",
+    "OTHER_RELATED",
+    "DOCUMENT_ONLY"
+  ],
+  "event_type_id": [
+    "MATERIAL_EVENT",
+    "MENTAL_EVENT",
+    "RELATIONAL_EVENT",
+    "VERBAL_EVENT",
+    "BEHAVIOURAL_EVENT",
+    "EXISTENTIAL_EVENT"
+  ],
+  "factuality": [
+    "FACT",
+    "REPORTED",
+    "NEGATED",
+    "INTENDED",
+    "HYPOTHETICAL"
+  ],
+  "confidence": [
+    "HIGH",
+    "MEDIUM",
+    "LOW"
+  ],
+  "circumstance_kind": [
+    "TIME",
+    "LOCATION",
+    "MANNER",
+    "CAUSE",
+    "PURPOSE"
+  ],
+  "stage_logic": [
+    "SEQUENCE",
+    "ENABLES",
+    "CAUSES",
+    "RESULTS_IN",
+    "ELABORATES"
+  ],
+  "next_basis": [
+    "explicit_time",
+    "relative_time",
+    "contextual_inference"
+  ],
+  "entity_type": [
+    "PERSON",
+    "PLACE",
+    "ORGANIZATION",
+    "MILITARY_UNIT",
+    "HISTORICAL_EVENT",
+    "PUBLICATION",
+    "OTHER"
+  ],
+  "entity_subtype": [
+    "INDIVIDUAL",
+    "KINSHIP_PERSON",
+    "ADMINISTRATIVE_PLACE",
+    "SETTLEMENT",
+    "ADDRESS",
+    "LANDMARK",
+    "ROUTE",
+    "PARTY_ORGANIZATION",
+    "SCHOOL",
+    "HOSPITAL",
+    "GOVERNMENT_AGENCY",
+    "PRINTING_HOUSE",
+    "MILITARY_FORMATION",
+    "MASS_ORGANIZATION",
+    "BATTLE",
+    "POLITICAL_EVENT",
+    "WAR",
+    "BOOK",
+    "PERIODICAL",
+    "WEAPON",
+    "INFRASTRUCTURE",
+    "OTHER"
+  ],
+  "entity_authority_status": [
+    "CANONICAL",
+    "LOCAL_CANONICAL",
+    "TRANSCRIPTION_UNCERTAIN",
+    "UNRESOLVED"
+  ],
+  "mention_function": [
+    "PARTICIPANT",
+    "CIRCUMSTANCE",
+    "MENTION_ONLY",
+    "ANNOTATION_SUBJECT",
+    "PROFILE_FACT",
+    "SPEAKER"
+  ],
+  "source_status": [
+    "ORAL_TESTIMONY",
+    "EDITORIAL_PROFILE",
+    "EDITORIAL_NOTE",
+    "INTERVIEWER_QUESTION",
+    "STRUCTURAL_INFERENCE",
+    "MIXED"
+  ],
+  "alias_type": [
+    "ALIAS",
+    "ABBREVIATION",
+    "HISTORICAL_NAME",
+    "TRANSCRIPTION_VARIANT",
+    "DESCRIPTIVE_NAME"
+  ],
+  "entity_relation_type": [
+    "BORN_IN",
+    "WORKED_AT",
+    "STUDIED_AT",
+    "MEMBER_OF",
+    "HELD_POSITION_AT",
+    "PART_OF",
+    "LOCATED_IN",
+    "RELATED_TO",
+    "POSSIBLY_SAME_AS"
+  ],
+  "time_precision": [
+    "DAY",
+    "MONTH",
+    "YEAR",
+    "INTERVAL",
+    "RELATIVE",
+    "UNKNOWN"
+  ],
+  "time_certainty": [
+    "EXACT",
+    "APPROXIMATE",
+    "OPEN_START",
+    "OPEN_END",
+    "UNCERTAIN"
+  ],
+  "time_expression_type": [
+    "DATE",
+    "INTERVAL"
+  ],
+  "role": [
+    "Actor",
+    "Goal",
+    "Client",
+    "Recipient",
+    "Scope",
+    "Senser",
+    "Phenomenon",
+    "Carrier",
+    "Attribute",
+    "Token",
+    "Value",
+    "Sayer",
+    "Target",
+    "Receiver",
+    "Verbiage",
+    "Existent",
+    "Circumstance"
+  ]
+}

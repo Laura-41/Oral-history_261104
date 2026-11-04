@@ -1,0 +1,8 @@
+﻿event_id,doc_id,event_name,narrative_order,historical_order,result_state,factuality,confidence,boundary_note,boundary_confidence,review_status
+YYS-E01,YYS-01,西安事变后红军北撤整训并准备全面抗战,1,1,中共中央和红军形成统一战线与全面抗战的政治军事准备,FACT,HIGH,从西安事变和平解决、红军北撤开始，以卢沟桥事变后向西安附近集结为结束,HIGH,MODEL_CANDIDATE
+YYS-E02,YYS-01,红军第一军团改编为八路军第一一五师,2,2,红二师改编为第一一五师第三四三旅第六八五团,FACT,HIGH,从第一军团在三原接受改编开始，以各师旅团番号和编制确定为结束,HIGH,MODEL_CANDIDATE
+YYS-E03,YYS-01,红军战士接受换装并誓师开赴抗日前线,3,3,战士服从统一战线和抗战需要，换装后出发,FACT,HIGH,从誓师大会宣布换装要求开始，以战士保存红星帽作纪念并服从出发命令为结束,HIGH,MODEL_CANDIDATE
+YYS-E04,YYS-01,第六八五团由三原行军渡黄河抵达侯马,4,4,部队抵达侯马等待铁路输送,FACT,HIGH,从第六八五团作为前卫出发开始，以经富平韩城芝川渡河、经过万泉抵达侯马为结束,HIGH,MODEL_CANDIDATE
+YYS-E05,YYS-01,第六八五团在侯马完成团级主官调整,5,5,杨得志任团长、陈正湘任副团长、彭明治任参谋长,FACT,HIGH,从原团长黄永胜和参谋长熊伯涛被调出开始，以新团级主官配置确立为结束,HIGH,MODEL_CANDIDATE
+YYS-E06,YYS-01,第六八五团经铁路和徒步辗转到达大营集结,6,6,第三四三旅在大营完成集结并准备平型关作战,FACT,HIGH,从侯马登上敞篷火车开始，以经太原黄寨原平和徒步转运后在大营集结为结束,HIGH,MODEL_CANDIDATE
+YYS-E07,YYS-01,部队向平型关前进并发现国民党防御准备不足,7,7,形成国民党未认真进行抗日防御准备的判断，并在冉庄附近完成战前集结,FACT,HIGH,从离开大营向平型关方向前进开始，以发现闲置建材、判断工事不足并抵达战前集结地为结束,HIGH,MODEL_CANDIDATE

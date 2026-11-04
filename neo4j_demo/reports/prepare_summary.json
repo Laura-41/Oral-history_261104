@@ -1,0 +1,20 @@
+{
+  "documents": 6,
+  "source_segments": 689,
+  "source_attachments": 1036,
+  "event_nodes": 40,
+  "event_processes": 40,
+  "event_participants": 99,
+  "event_circumstances": 119,
+  "process_stages": 119,
+  "stage_next": 88,
+  "event_next": 34,
+  "entities": 305,
+  "entity_mentions": 1619,
+  "entity_aliases": 351,
+  "entity_relations": 62,
+  "event_times": 40,
+  "time_expressions": 159,
+  "document_annotations": 137,
+  "coverage_audit": 6
+}

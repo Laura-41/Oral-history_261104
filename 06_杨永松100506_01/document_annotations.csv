@@ -1,0 +1,21 @@
+﻿annotation_id,doc_id,annotation_type,annotation_text,author_or_editor,source_status,target_type,target_id,source_segment_id
+YYS-01-PROFILE,YYS-01,BIOGRAPHICAL_PROFILE,嘉宾名称：杨永松（01）嘉宾身份：1919年7月生于广东省梅州市大埔县百侯镇侯南村。1930年在永定县委参加革命工作。经历闽西肃反，释放后转至红12军机关，参加中央苏区第三次反围剿。1934年10月参加长征。平型关战斗时任115师685团团部技术书记。1943年3月调延安学习，8月抵绥德，任抗大总校校部秘书科科长。1945年12月底任东北民主联军总政治部副秘书长。1949年3月在四野战车师任政委，部队后改为坦克一师，入朝时杨永松留守国内。1953年1月调华北军区装甲兵政治部主任，1955年授少将军衔。1957年任北京军区工程兵副政委，1968年任北京军区工程兵政委，1981年以副兵团级离休。采访时间：2010-04-27采访地点：北京杨永松家中口述资料：一校：王桂云  二校：周家旺 内容摘要：杨永松讲述“西安事变”后红军召开会议，作抗战和红军改编的动员；讲述了红军改编的具体形式；讲述了红军战士不情愿换装、换帽，但为了抗日大局而忍痛接受；讲述了其所在的685团的行军路线及沿途受到群众的欢迎欢送；分析了685团团长由黄永胜变为杨得志的过程和原因；讲述了部队前往平型关路上看到国民党没有做好抗日准备的一些迹象。01.杨永松100506,原文编校者,EDITORIAL_PROFILE,DOCUMENT,YYS-01,YYS-01-S0001
+YYS-01-A001,YYS-01,张闻天人物注, 洛甫，即张闻天（1900-1976），江苏南汇人。中国共产党早期重要领导人，1925年加入中国共产党，1933年进入中央革命根据地，1934年10月参加长征并出席遵义会议，1959年被错定为反党集团成员；文化大革命中受迫害，1976年病逝。1979年8月，中共中央对其冤案平反昭雪。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-ZHANGWENTIAN,YYS-01-N001
+YYS-01-A002,YYS-01,红军大学史实注, 即红军大学一期。1936年6月，中国人民抗日红军大学在陕北瓦窑堡建立，目的是为抗日高潮培养干部。红大第一期学员称为红大一期；二期的1队、2队为红军的军师团级干部，学员有陈赓、罗炳辉、杨得志等。,原文编校者,EDITORIAL_NOTE,ENTITY,ORG-RED-UNIVERSITY,YYS-01-N002
+YYS-01-Q0003,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0004,YYS-01-S0003
+YYS-01-Q0005,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0006,YYS-01-S0005
+YYS-01-Q0007,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0008,YYS-01-S0007
+YYS-01-Q0027,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0028,YYS-01-S0027
+YYS-01-Q0032,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0033,YYS-01-S0032
+YYS-01-Q0034,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0035,YYS-01-S0034
+YYS-01-Q0040,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0041,YYS-01-S0040
+YYS-01-Q0048,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0049,YYS-01-S0048
+YYS-01-Q0050,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0052,YYS-01-S0050
+YYS-01-Q0053,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0054,YYS-01-S0053
+YYS-01-Q0057,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0058,YYS-01-S0057
+YYS-01-Q0059,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0060,YYS-01-S0059
+YYS-01-Q0061,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0062,YYS-01-S0061
+YYS-01-Q0063,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0065,YYS-01-S0063
+YYS-01-Q0066,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0067,YYS-01-S0066
+YYS-01-Q0080,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0081,YYS-01-S0080
+YYS-01-Q0084,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0085,YYS-01-S0084

@@ -1,0 +1,11 @@
+﻿event_id,doc_id,event_name,narrative_order,historical_order,result_state,factuality,confidence,boundary_note,boundary_confidence,review_status
+CRT-E01,CRT-01,八岁起放牛并承担家务劳动,1,1,以儿童劳动帮助家庭维持生活,FACT,HIGH,从说明家贫无法上学开始，以形成稳定的放牛和家务劳动生活为阶段结果,HIGH,MODEL_CANDIDATE
+CRT-E02,CRT-01,与同伴观看日舰时遭炮击并逃脱,2,2,未被炮弹击中，并形成强烈仇日情绪,FACT,HIGH,从儿童跑到高山观看日本船只开始，以炮击后逃离并形成仇日情绪为结束,HIGH,MODEL_CANDIDATE
+CRT-E03,CRT-01,从济南师范毕业并到沧口小学任教,4,3,成为沧口小学教员,FACT,HIGH,以济南师范毕业为起点，以进入沧口小学任教为结果,HIGH,MODEL_CANDIDATE
+CRT-E04,CRT-01,五三惨案期间在济南险遭炮击并绕道返乡,3,4,避开炮击，经小清河和海边绕道返回家乡,FACT,HIGH,从因事到济南、遭遇炮击开始，以铁路中断后绕道回家并恢复任教为结束,HIGH,MODEL_CANDIDATE
+CRT-E05,CRT-01,受五三惨案影响放弃教书并决定参军,5,5,与三名同伴结伴离开教职寻求参军,FACT,HIGH,以五三惨案改变其思想为起点，以明确决定亲自参军抗日为结果,HIGH,MODEL_CANDIDATE
+CRT-E06,CRT-01,辗转上海天津保定寻求参军并被录取为学兵,6,6,被河北军事政治学校教导大队接收为学兵,FACT,HIGH,从与同伴离开青岛赴上海开始，以在保定被教导大队录取为学兵为结束,HIGH,MODEL_CANDIDATE
+CRT-E07,CRT-01,在教导大队接受严格学兵训练,7,7,继续留在教导大队受训，绑腿处分事件得到纠正,FACT,HIGH,从被录取为学兵开始，以适应训练并解决处分事件为阶段结果,HIGH,MODEL_CANDIDATE
+CRT-E08,CRT-01,考入河北军事政治学校第二期并完成军事学习,8,8,随学校转入山西后完成学业,FACT,HIGH,从考入第二期开始，经过北京学习和学校改编迁晋，以毕业为结束,HIGH,MODEL_CANDIDATE
+CRT-E09,CRT-01,毕业后任炮兵二十八团补充队中尉队长,9,9,获得炮兵补充队中尉队长身份,FACT,HIGH,以军校毕业分配为起点，以中尉补充队长职务确立为结果,HIGH,MODEL_CANDIDATE
+CRT-E10,CRT-01,在晋中地区招募补充兵并经历部队整编,10,10,两个多月仅招募七八人，所在部队随后被整编,FACT,MEDIUM,从担任补充队长并承担招兵任务开始，以阎锡山部队被整编为新的军队编制为阶段结果；原文在此处未完全讲完,MEDIUM,MODEL_CANDIDATE

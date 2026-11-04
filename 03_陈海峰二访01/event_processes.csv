@@ -1,0 +1,7 @@
+﻿process_id,event_id,event_type_id,process_text,process_normalized,evidence_segment_id,confidence
+CHF-V2-E01-PROC,CHF-V2-E01,MATERIAL_EVENT,选调并赴教导队学习,选调并赴教导队学习,CHF-V2-01-S0007,HIGH
+CHF-V2-E02-PROC,CHF-V2-E02,MATERIAL_EVENT,转入并参加公共卫生训练,转入并参加公共卫生训练,CHF-V2-01-S0018,HIGH
+CHF-V2-E03-PROC,CHF-V2-E03,MATERIAL_EVENT,接受严格医学训练并完成学习,接受严格医学训练并完成学习,CHF-V2-01-S0032,HIGH
+CHF-V2-E04-PROC,CHF-V2-E04,MATERIAL_EVENT,在病房实习并诊断常见疾病,在病房实习并诊断常见疾病,CHF-V2-01-S0051,HIGH
+CHF-V2-E05-PROC,CHF-V2-E05,MATERIAL_EVENT,取回遗体、实施解剖并送还安葬,取回遗体、实施解剖并送还安葬,CHF-V2-01-S0086,HIGH
+CHF-V2-E06-PROC,CHF-V2-E06,RELATIONAL_EVENT,具备,具备,CHF-V2-01-S0098,HIGH

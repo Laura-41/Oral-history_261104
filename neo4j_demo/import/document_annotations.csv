@@ -1,0 +1,138 @@
+annotation_id,doc_id,annotation_type,annotation_text,author_or_editor,source_status,target_type,target_id,source_segment_id
+CHF-V1-01-PROFILE,CHF-V1-01,BIOGRAPHICAL_PROFILE,嘉宾名称：陈海峰（一访）（01）嘉宾身份：出生于1912年8月4日，江苏江阴前周乡东篁村人，乳名永嘉。小学毕业后在上海荣华印书馆任排字工人，1935年自发组织学徒罢工；1938年2月参加江南抗日义勇军第三路，任宣传、情报站长；1938年10月赴新四军军部教导总队学习；1939年8月毕业于新四军军医处第二期公共卫生人员训练班；1939年至1941年12月历任三支队军医处卫生巡视员、五团二营卫生指导员、五团卫生队长、新四军一师二旅五团卫生队长、皖南新四军前方医院外科病室副室长；1940年12月6日入党；1942年任新四军苏中卫生学校教务主任；1943年任一师老一团卫生队长；1945年任苏浙军区卫生部医政科长兼野战医院院长等职；1946年任华中军区第一后方医院院长；1948年8月任华东军区第一重伤医院院长；1949年8月任福州卫生局长；1982年任卫生部咨询委员会委员；2013年6月17日去世。采访时间：2010-01-24采访地点：北京和平里陈海峰家口述资料：一校：孙康清  二校: 王涛内容摘要：陈海峰讲述了自己的家庭背景；很小就到印书馆做排字工人；受哥哥的影响，看到资本家对工人的剥削，毅然组织工友罢工；“八·一三 ”以后，逃难回到家乡江阴澄西；在家乡组织篁村人民抗日救亡会，宣传抗日。01陈海峰100310  ,原文编校者,EDITORIAL_PROFILE,DOCUMENT,CHF-V1-01,CHF-V1-01-S0001
+CHF-V1-01-A001,CHF-V1-01,薛暮桥人物注, 薛暮桥：（1904—2005），江苏无锡人。抗战期间，曾任新四军教导总队训练处副处长。建国后，曾任国家统计局局长、国家计委副主任等职。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-XUEMUQIAO,CHF-V1-01-N001
+CHF-V1-01-A002,CHF-V1-01,快慢机名物注, 快慢机：二战期间，毛瑟M1932冲锋手枪在中国的别称。既可以进行半自动射击，又可以进行全自动射击。,原文编校者,EDITORIAL_NOTE,ENTITY,ENT-MAUSER-M1932,CHF-V1-01-N002
+CHF-V1-01-A003,CHF-V1-01,高小生人物注, 注：高小生（1903-1931）1927年参加江阴农民暴动并入党，1929年任澄、武、丹地区游击队主要负责人，1931年被捕牺牲。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-GAOXIAOSHENG,CHF-V1-01-N003
+CHF-V1-01-A004,CHF-V1-01,张太雷人物注, 张太雷：（1898—1927），江苏武进人。是中国共产党最早的党员之一，曾任五届中央委员、中共湖北省委书记、广东省委书记等职。后在广州起义中牺牲。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-ZHANGTAILEI,CHF-V1-01-N004
+CHF-V1-01-A005,CHF-V1-01,恽代英人物注, 恽代英：（1895—1931），江苏武进人。曾任黄埔四期政治教官、共产主义青年团中央执行委员等职。1931年4月29日在南京被国民党反动派杀害。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-YUNDAIYING,CHF-V1-01-N005
+CHF-V1-01-Q0003,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0004,CHF-V1-01-S0003
+CHF-V1-01-Q0021,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0022,CHF-V1-01-S0021
+CHF-V1-01-Q0033,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0034,CHF-V1-01-S0033
+CHF-V1-01-Q0035,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0036,CHF-V1-01-S0035
+CHF-V1-01-Q0037,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0038,CHF-V1-01-S0037
+CHF-V1-01-Q0039,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0040,CHF-V1-01-S0039
+CHF-V1-01-Q0062,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0063,CHF-V1-01-S0062
+CRT-01-PROFILE,CRT-01,BIOGRAPHICAL_PROFILE,嘉宾名称：陈锐霆（01）嘉宾身份：1906年出生于即墨鳌山卫镇盘龙庄村。九一八后投入商震32军，1937年入党。1939年冬季攻势后陈锐霆升任142师425团团长。1940年92军入鲁，为避免与新四军发生摩擦，1941年4月19日，率部千余人起义。后在起义官兵叛变时陈锐霆身受重伤。伤愈归队后曾任新四军军部参谋处处长。1946年1月，陈锐霆任新四军暨山东军区司令部参谋处长。1947年3月任华东野战军特种兵纵队司令员。1949年中华人民共和国成立后，陈锐霆任华东军区炮兵司令。1952年调任中国人民解放军炮兵参谋长。采访时间：2009-04-20采访地点：陈锐霆复兴路家中口述资料：一校：张志鹏  二校：周家旺 内容摘要：陈锐霆讲述小时候遭遇日本兵受欺负的经历；讲述因济南五三惨案而放弃教书去参军；讲述参加河北军事政治学校的过程；讲述在河北军事政治学校学习的情况；讲述军校毕业后参军的初期经历。01. 陈锐霆 090422,原文编校者,EDITORIAL_PROFILE,DOCUMENT,CRT-01,CRT-01-S0001
+CRT-01-A001,CRT-01,五三惨案历史注, 注：五三惨案是1928年5月3日，日军在山东济南大肆屠杀中国军民及外交官员的血腥事件，又称济南惨案。,原文编校者,EDITORIAL_NOTE,ENTITY,EVT-53,CRT-01-N001
+CRT-01-A002,CRT-01,商震人物注, 注：商震（1888-1978），祖籍浙江绍兴，生于河北保定。晋绥军早期名将，民国陆军二级上将。历任河北省主席、山西省主席、河南省主席。抗战时期任第二十集团军总司令、第六战区司令长官，战后任中国驻美军事代表团团长、国民政府参军长、中国驻日代表团团长等职。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-SHANGZHEN,CRT-01-N002
+CRT-01-Q0003,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0004,CRT-01-S0003
+CRT-01-Q0005,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0006,CRT-01-S0005
+CRT-01-Q0007,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0009,CRT-01-S0007
+CRT-01-Q0010,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0011,CRT-01-S0010
+CRT-01-Q0012,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0013,CRT-01-S0012
+CRT-01-Q0014,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0016,CRT-01-S0014
+CRT-01-Q0021,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0022,CRT-01-S0021
+CRT-01-Q0027,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0028,CRT-01-S0027
+CRT-01-Q0035,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0036,CRT-01-S0035
+CRT-01-Q0037,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0038,CRT-01-S0037
+CRT-01-Q0045,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0046,CRT-01-S0045
+CRT-01-Q0049,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0050,CRT-01-S0049
+CRT-01-Q0061,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0062,CRT-01-S0061
+CRT-01-Q0068,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0070,CRT-01-S0068
+CRT-01-Q0071,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0072,CRT-01-S0071
+CRT-01-Q0077,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0078,CRT-01-S0077
+CRT-01-Q0081,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0082,CRT-01-S0081
+CRT-01-Q0089,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0091,CRT-01-S0089
+CRT-01-Q0098,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0100,CRT-01-S0098
+CHF-V2-01-PROFILE,CHF-V2-01,BIOGRAPHICAL_PROFILE,嘉宾名称：陈海峰（二访）（01）嘉宾身份：出生于1912年8月4日，江苏江阴前周乡东篁村人，乳名永嘉。小学毕业后在上海荣华印书馆任排字工人，1935年自发组织学徒罢工；1938年2月参加江南抗日义勇军第三路，任宣传、情报站长；1938年10月赴新四军军部教导总队学习；1939年8月毕业于新四军军医处第二期公共卫生人员训练班；1939年至1941年12月历任三支队军医处卫生巡视员、五团二营卫生指导员、五团卫生队长、新四军一师二旅五团卫生队长、皖南新四军前方医院外科病室副室长；1940年12月6日入党；1942年任新四军苏中卫生学校教务主任；1943年任一师老一团卫生队长；1945年任苏浙军区卫生部医政科长兼野战医院院长等职；1946年任华中军区第一后方医院院长；1948年8月任华东军区第一重伤医院院长；1949年8月任福州卫生局长；1982年任卫生部咨询委员会委员；2013年6月17日去世。采访时间：2010-02-27采访地点：北京和平里陈海峰家里口述资料：一校：孙康清  二校：王涛内容摘要：陈海峰讲述了自己在新四军卫训班的学习情况；卫训班的师资力量、严格的规章制度，残酷的淘汰制度；自己当年偷尸体，用作解剖实验。01陈海峰,原文编校者,EDITORIAL_PROFILE,DOCUMENT,CHF-V2-01,CHF-V2-01-S0001
+CHF-V2-01-A001,CHF-V2-01,严振衡人物注, 严振衡：（1923—1996），江苏扬州人。抗战期间，曾任新四军一师干事。解放战争时期，曾任第三野战军团长。建国后，曾任装甲兵参谋长。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-YANZHENHENG,CHF-V2-01-N001
+CHF-V2-01-A002,CHF-V2-01,蒲锦泉姓名校注, 蒲锦泉现在名叫蒲敬诠。,原文编校者,EDITORIAL_NOTE,DOCUMENT,CHF-V2-01,CHF-V2-01-N002
+CHF-V2-01-A003,CHF-V2-01,宫乃泉学历校注, 经查宫乃泉是奉天医科大学毕业。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-GONGNAIQUAN,CHF-V2-01-N003
+CHF-V2-01-A004,CHF-V2-01,啰音医学名词注, 啰音：是指呼吸音以外附加的声音，由于气管支气管或者管腔部分阻塞等病变所致。,原文编校者,EDITORIAL_NOTE,ENTITY,TERM-RALES,CHF-V2-01-N004
+CHF-V2-01-A005,CHF-V2-01,融合性天花医学名词注, 融合性天花：皮疹多，分布广泛，发展迅速，脓疱互相融合。,原文编校者,EDITORIAL_NOTE,ENTITY,DISEASE-CONFLUENT-SMALLPOX,CHF-V2-01-N005
+CHF-V2-01-A006,CHF-V2-01,吴友廉人物注, 注：吴幼莲，后改名吴友廉，1918年7月生于安徽泾县茂林，1938年10月参加新四军，卫训班毕业后任新四军军部化验员。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-WUYOULIAN,CHF-V2-01-N006
+CHF-V2-01-A007,CHF-V2-01,曾如清人物注, 曾如清：（1914—1989），江西人。抗战期间，曾任苏浙军区第四纵队政治部主任。解放战争期间，曾任三野20军58师师长兼政委。建国后，曾任志愿军副政委、江苏省军区第二政委等职。1955年被授予少将军衔。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-ZENGRUQING,CHF-V2-01-N007
+CHF-V2-01-Q0003,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0004,CHF-V2-01-S0003
+CHF-V2-01-Q0006,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0007,CHF-V2-01-S0006
+CHF-V2-01-Q0010,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0011,CHF-V2-01-S0010
+CHF-V2-01-Q0013,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0014,CHF-V2-01-S0013
+CHF-V2-01-Q0019,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0020,CHF-V2-01-S0019
+CHF-V2-01-Q0023,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0024,CHF-V2-01-S0023
+CHF-V2-01-Q0027,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0028,CHF-V2-01-S0027
+CHF-V2-01-Q0029,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0030,CHF-V2-01-S0029
+CHF-V2-01-Q0034,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0035,CHF-V2-01-S0034
+CHF-V2-01-Q0040,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0041,CHF-V2-01-S0040
+CHF-V2-01-Q0042,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0043,CHF-V2-01-S0042
+CHF-V2-01-Q0046,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0047,CHF-V2-01-S0046
+CHF-V2-01-Q0056,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0057,CHF-V2-01-S0056
+CHF-V2-01-Q0058,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0059,CHF-V2-01-S0058
+CHF-V2-01-Q0062,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0063,CHF-V2-01-S0062
+CHF-V2-01-Q0066,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0067,CHF-V2-01-S0066
+CHF-V2-01-Q0068,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0069,CHF-V2-01-S0068
+CHF-V2-01-Q0081,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0082,CHF-V2-01-S0081
+CHF-V2-01-Q0095,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0098,CHF-V2-01-S0095
+CHF-V2-01-Q0097,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0098,CHF-V2-01-S0097
+CHF-V2-01-Q0099,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0100,CHF-V2-01-S0099
+CHF-V2-01-Q0105,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0107,CHF-V2-01-S0105
+CHF-V2-01-Q0106,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0107,CHF-V2-01-S0106
+CHF-V2-01-Q0110,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0111,CHF-V2-01-S0110
+CHF-V2-01-Q0114,CHF-V2-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V2-01-S0115,CHF-V2-01-S0114
+CHF-V3-01-PROFILE,CHF-V3-01,BIOGRAPHICAL_PROFILE,嘉宾名称：陈海峰（三访）（01）嘉宾身份：出生于1912年8月4日，江苏江阴前周乡东篁村人，乳名永嘉。小学毕业后在上海荣华印书馆任排字工人，1935年自发组织学徒罢工；1938年2月参加江南抗日义勇军第三路，任宣传、情报站长；1938年10月赴新四军军部教导总队学习；1939年8月毕业于新四军军医处第三第二期公共卫生人员训练班；1939年至1941年12月历任三支队军医处卫生巡视员、五团二营卫生指导员、五团卫生队长、新四军一师二旅五团卫生队长、皖南新四军前方医院外科病室副室长；1940年12月6日入党；1942年任新四军苏中卫生学校教务主任；1943年任一师老一团卫生队长；1945年任苏浙军区卫生部医政科长兼野战医院院长等职；1946年任华中军区第一后方医院院长；1948年8月任华东军区第一重伤医院院长；1949年8月任福州卫生局长；1982年至今任卫生部咨询委员会委员。2013年6月17日去世。采访时间：2011-03-13采访地点：北京和平里陈海峰家中 口述资料：速记：孙康清  一校：石鸣  二校：冯志卿  三校：王涛内容摘要：陈海峰讲述了当时新四军四个支队的人员构成；当时新四军实际的军力；新四军三支队的驻防情况和所处的形势；皖南事变前，新四军已经分批进行撤离的情况。嘉宾名称：陈海峰（三访）（01）嘉宾身份：出生于1912年8月4日，江苏江阴前周乡东篁村人，乳名永嘉。小学毕业后在上海荣华印书馆任排字工人，1935年自发组织学徒罢工；1938年2月参加江南抗日义勇军第三路，任宣传、情报站长；1938年10月赴新四军军部教导总队学习；1939年8月毕业于新四军军医处第三第二期公共卫生人员训练班；1939年至1941年12月历任三支队军医处卫生巡视员、五团二营卫生指导员、五团卫生队长、新四军一师二旅五团卫生队长、皖南新四军前方医院外科病室副室长；1940年12月6日入党；1942年任新四军苏中卫生学校教务主任；1943年任一师老一团卫生队长；1945年任苏浙军区卫生部医政科长兼野战医院院长等职；1946年任华中军区第一后方医院院长；1948年8月任华东军区第一重伤医院院长；1949年8月任福州卫生局长；1982年至今任卫生部咨询委员会委员。2013年6月17日去世。采访时间：2011-03-13采访地点：北京和平里陈海峰家中 口述资料：速记：孙康清  一校：石鸣  二校：冯志卿  三校：王涛内容摘要：陈海峰讲述了当时新四军四个支队的人员构成；当时新四军实际的军力；新四军三支队的驻防情况和所处的形势；皖南事变前，新四军已经分批进行撤离的情况。01 陈海峰（三访）20110808    ,原文编校者,EDITORIAL_PROFILE,DOCUMENT,CHF-V3-01,CHF-V3-01-S0001
+CHF-V3-01-A001,CHF-V3-01,张鼎丞人物注, 张鼎丞：（1898—1981），福建永定人。抗战期间，曾任新四军二支队司令员。解放战争时期，曾任华中军区司令员。建国后，曾任福建省委书记、中共中央组织部第一副部长等职。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-ZHANGDINGCHENG,CHF-V3-01-N001
+CHF-V3-01-A002,CHF-V3-01,张云逸籍贯校注, 注：此处不准确，张云逸是海南人。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-ZHANGYUNYI,CHF-V3-01-N002
+CHF-V3-01-A003,CHF-V3-01,张正坤人物注, 张正坤：（1898—1941），湖南浏阳人。抗战期间，曾任湘鄂赣抗日红军游击支队副司令，三支队司令员兼参谋长。皖南事变中被俘，1941年牺牲于上饶集中营。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-ZHANGZHENGKUN,CHF-V3-01-N003
+CHF-V3-01-A004,CHF-V3-01,陈仁洪人物注, 陈仁洪：（1917—1955），江西铅山人。抗战期间，曾任新四军7师独立团副团长。解放战争期间，曾任三野24军70师师长。建国后，曾任北京军区副政委。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-CHENRENHONG,CHF-V3-01-N004
+CHF-V3-01-A005,CHF-V3-01,冷欣人物注, 冷欣：（1900—1987），江苏兴化人。抗战期间，曾任国民党第3战区第2游击区副总指挥。解放战争期间，曾任京沪杭警备司令部副总司令。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-LENGXIN,CHF-V3-01-N005
+CHF-V3-01-A006,CHF-V3-01,侦察科长史实校注, 注：此处不准确，李志高时任新四军军部作战科长，侦察科长是谢忠良。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-XIEZHONGLIANG,CHF-V3-01-N006
+CHF-V3-01-Q0002,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0003,CHF-V3-01-S0002
+CHF-V3-01-Q0011,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0012,CHF-V3-01-S0011
+CHF-V3-01-Q0041,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0042,CHF-V3-01-S0041
+CHF-V3-01-Q0048,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0050,CHF-V3-01-S0048
+CHF-V3-01-Q0049,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0050,CHF-V3-01-S0049
+CHF-V3-01-Q0056,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0057,CHF-V3-01-S0056
+CHF-V3-01-Q0085,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0087,CHF-V3-01-S0085
+CHF-V3-01-Q0086,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0087,CHF-V3-01-S0086
+CHF-V3-01-Q0090,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0092,CHF-V3-01-S0090
+CHF-V3-01-Q0091,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0092,CHF-V3-01-S0091
+CHF-V3-01-Q0093,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0094,CHF-V3-01-S0093
+CHF-V3-01-Q0097,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0099,CHF-V3-01-S0097
+CHF-V3-01-Q0098,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0099,CHF-V3-01-S0098
+CHF-V3-01-Q0114,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0115,CHF-V3-01-S0114
+CHF-V3-01-Q0122,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0123,CHF-V3-01-S0122
+CHF-V3-01-Q0127,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0128,CHF-V3-01-S0127
+CHF-V3-01-Q0135,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0136,CHF-V3-01-S0135
+CHF-V3-01-Q0145,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0146,CHF-V3-01-S0145
+CHF-V3-01-Q0147,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0148,CHF-V3-01-S0147
+CHF-V3-01-Q0149,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0150,CHF-V3-01-S0149
+CHF-V3-01-Q0151,CHF-V3-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V3-01-S0152,CHF-V3-01-S0151
+CRT-02-PROFILE,CRT-02,BIOGRAPHICAL_PROFILE,嘉宾名称：陈锐霆（02）嘉宾身份：1906年出生于即墨鳌山卫镇盘龙庄村。九一八后投入商震32军，1937年入党。1939年冬季攻势后陈锐霆升任142师425团团长。1940年92军入鲁，为避免与新四军发生摩擦，1941年4月19日，率部千余人起义。后在起义官兵叛变时陈锐霆身受重伤。伤愈归队后曾任新四军军部参谋处处长。1946年1月，陈锐霆任新四军暨山东军区司令部参谋处长。1947年3月任华东野战军特种兵纵队司令员。1949年中华人民共和国成立后，陈锐霆任华东军区炮兵司令。1952年调任中国人民解放军炮兵参谋长。采访时间：2009-04-20 采访地点：陈锐霆复兴路家中口述资料：一校：张志鹏  二校：周家旺 内容摘要：陈锐霆讲述商震和阎锡山的关系；讲述他担任炮兵大队区队长的经历；讲述他考上南京炮校的经过；讲述他通过王兴纲思想上逐渐倾向共产党的过程。02.陈锐霆 090422,原文编校者,EDITORIAL_PROFILE,DOCUMENT,CRT-02,CRT-02-S0001
+CRT-02-A001,CRT-02,丁惟汾人物注, 注：丁惟汾（1874-1954），字鼎丞。山东省日照市人，毕业于保定师范学校。同盟会创始人之一。1911年武昌起义爆发，丁惟汾曾领导济南学界积极响应，迫使山东巡抚宣布独立。作为国民党元老，蒋介石尊称他为“七哥”，1949年赴台湾任监察院委员等职。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-DINGWEIFEN,CRT-02-N001
+CRT-02-A002,CRT-02,石友三人物注, 注：石友三（1891-1940），字汉章，吉林省人。一生中投机钻营，反复无常，时人称为“倒戈将军”。登封少林寺被他几乎焚毁殆尽。1931年石友三接受汪精卫广州国民政府任命，出兵反对张学良，遭到蒋介石和张学良的南北夹击，商震镇压了此次政变后被任命为新编成的第32军军长。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-SHIYOUSAN,CRT-02-N002
+CRT-02-A003,CRT-02,何梅协定历史注, 注：《何梅协定》，1935年7月6日，国民政府军事委员会北平分会代理委员长何应钦复函日本中国驻屯军司令官梅津美治郎，就解决河北事件问题，表示接受6月11日梅津就华北问题提出的备忘录全部条件，通称《何梅协定》。根据协定，中国在河北省和察哈尔省的主权大部丧失。,原文编校者,EDITORIAL_NOTE,ENTITY,EVT-HEMEI,CRT-02-N003
+CRT-02-A004,CRT-02,何应钦人物注, 注：何应钦（1890-1987），字敬之，贵州兴义人。曾为中华民国陆军一级上将、黄埔军校总教官、国民政府军事委员会参谋总长、陆军总司令、国防部部长、行政院院长等政府要职。并为黄埔军校校旗设计者，也是中华民国国徽设计者。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-HEYINGQIN,CRT-02-N004
+CRT-02-A005,CRT-02,王兴纲人物注, 注：王兴纲（1905-1993），河北乐亭县人。1928年加入中国共产党。后在国民党军内从事地下工作。1941年参加新四军，1955年被授予少将军衔。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-WANGXINGGANG,CRT-02-N005
+CRT-02-Q0009,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0010,CRT-02-S0009
+CRT-02-Q0011,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0012,CRT-02-S0011
+CRT-02-Q0015,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0016,CRT-02-S0015
+CRT-02-Q0027,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0028,CRT-02-S0027
+CRT-02-Q0038,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0039,CRT-02-S0038
+CRT-02-Q0043,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0044,CRT-02-S0043
+CRT-02-Q0049,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0050,CRT-02-S0049
+CRT-02-Q0061,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0062,CRT-02-S0061
+CRT-02-Q0078,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0081,CRT-02-S0078
+CRT-02-Q0079,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0081,CRT-02-S0079
+CRT-02-Q0082,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0083,CRT-02-S0082
+CRT-02-Q0084,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0085,CRT-02-S0084
+CRT-02-Q0086,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0087,CRT-02-S0086
+CRT-02-Q0090,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0091,CRT-02-S0090
+CRT-02-Q0092,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0093,CRT-02-S0092
+YYS-01-PROFILE,YYS-01,BIOGRAPHICAL_PROFILE,嘉宾名称：杨永松（01）嘉宾身份：1919年7月生于广东省梅州市大埔县百侯镇侯南村。1930年在永定县委参加革命工作。经历闽西肃反，释放后转至红12军机关，参加中央苏区第三次反围剿。1934年10月参加长征。平型关战斗时任115师685团团部技术书记。1943年3月调延安学习，8月抵绥德，任抗大总校校部秘书科科长。1945年12月底任东北民主联军总政治部副秘书长。1949年3月在四野战车师任政委，部队后改为坦克一师，入朝时杨永松留守国内。1953年1月调华北军区装甲兵政治部主任，1955年授少将军衔。1957年任北京军区工程兵副政委，1968年任北京军区工程兵政委，1981年以副兵团级离休。采访时间：2010-04-27采访地点：北京杨永松家中口述资料：一校：王桂云  二校：周家旺 内容摘要：杨永松讲述“西安事变”后红军召开会议，作抗战和红军改编的动员；讲述了红军改编的具体形式；讲述了红军战士不情愿换装、换帽，但为了抗日大局而忍痛接受；讲述了其所在的685团的行军路线及沿途受到群众的欢迎欢送；分析了685团团长由黄永胜变为杨得志的过程和原因；讲述了部队前往平型关路上看到国民党没有做好抗日准备的一些迹象。01.杨永松100506,原文编校者,EDITORIAL_PROFILE,DOCUMENT,YYS-01,YYS-01-S0001
+YYS-01-A001,YYS-01,张闻天人物注, 洛甫，即张闻天（1900-1976），江苏南汇人。中国共产党早期重要领导人，1925年加入中国共产党，1933年进入中央革命根据地，1934年10月参加长征并出席遵义会议，1959年被错定为反党集团成员；文化大革命中受迫害，1976年病逝。1979年8月，中共中央对其冤案平反昭雪。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-ZHANGWENTIAN,YYS-01-N001
+YYS-01-A002,YYS-01,红军大学史实注, 即红军大学一期。1936年6月，中国人民抗日红军大学在陕北瓦窑堡建立，目的是为抗日高潮培养干部。红大第一期学员称为红大一期；二期的1队、2队为红军的军师团级干部，学员有陈赓、罗炳辉、杨得志等。,原文编校者,EDITORIAL_NOTE,ENTITY,ORG-RED-UNIVERSITY,YYS-01-N002
+YYS-01-Q0003,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0004,YYS-01-S0003
+YYS-01-Q0005,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0006,YYS-01-S0005
+YYS-01-Q0007,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0008,YYS-01-S0007
+YYS-01-Q0027,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0028,YYS-01-S0027
+YYS-01-Q0032,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0033,YYS-01-S0032
+YYS-01-Q0034,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0035,YYS-01-S0034
+YYS-01-Q0040,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0041,YYS-01-S0040
+YYS-01-Q0048,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0049,YYS-01-S0048
+YYS-01-Q0050,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0052,YYS-01-S0050
+YYS-01-Q0053,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0054,YYS-01-S0053
+YYS-01-Q0057,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0058,YYS-01-S0057
+YYS-01-Q0059,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0060,YYS-01-S0059
+YYS-01-Q0061,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0062,YYS-01-S0061
+YYS-01-Q0063,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0065,YYS-01-S0063
+YYS-01-Q0066,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0067,YYS-01-S0066
+YYS-01-Q0080,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0081,YYS-01-S0080
+YYS-01-Q0084,YYS-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,YYS-01-S0085,YYS-01-S0084

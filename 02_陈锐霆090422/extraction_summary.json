@@ -1,0 +1,23 @@
+{
+  "doc_id": "CRT-01",
+  "source_file": "/Users/yuqi/Desktop/硕士毕业论文/2609/0920_01/语料/C 陈锐霆_15/01.陈锐霆 090422（二校后 阅读版）.docx",
+  "body_character_count": 5059,
+  "body_block_count": 101,
+  "xml_stats": {
+    "paragraphs": 116,
+    "tables": 0,
+    "text_nodes": 571,
+    "insertions": 204,
+    "deletions": 216,
+    "comment_refs": 0,
+    "footnote_refs": 2,
+    "endnote_refs": 0,
+    "textboxes": 1,
+    "has_comments_part": false,
+    "has_footnotes_part": true,
+    "has_endnotes_part": false
+  },
+  "additional_parts": {
+    "footnotes": 2
+  }
+}

@@ -1,0 +1,8 @@
+﻿process_id,event_id,event_type_id,process_text,process_normalized,evidence_segment_id,confidence
+CHF-V1-E01-PROC,CHF-V1-E01,MATERIAL_EVENT,赴上海当排字学徒,赴上海当排字学徒,CHF-V1-01-S0015,HIGH
+CHF-V1-E02-PROC,CHF-V1-E02,MATERIAL_EVENT,协助抬送伤员,协助抬送伤员,CHF-V1-01-S0056,MEDIUM
+CHF-V1-E03-PROC,CHF-V1-E03,MENTAL_EVENT,接触并形成初步革命认识,接触并形成初步革命认识,CHF-V1-01-S0024,HIGH
+CHF-V1-E04-PROC,CHF-V1-E04,MATERIAL_EVENT,组织罢工并离开印书馆,组织罢工并离开印书馆,CHF-V1-01-S0042,HIGH
+CHF-V1-E05-PROC,CHF-V1-E05,MATERIAL_EVENT,经历失业并重新就业,经历失业并重新就业,CHF-V1-01-S0050,HIGH
+CHF-V1-E06-PROC,CHF-V1-E06,MATERIAL_EVENT,逃离上海并返回家乡,逃离上海并返回家乡,CHF-V1-01-S0058,HIGH
+CHF-V1-E07-PROC,CHF-V1-E07,MATERIAL_EVENT,组织并发展抗日救亡会,组织并发展抗日救亡会,CHF-V1-01-S0063,HIGH

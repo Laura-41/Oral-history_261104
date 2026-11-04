@@ -1,0 +1,23 @@
+﻿annotation_id,doc_id,annotation_type,annotation_text,author_or_editor,source_status,target_type,target_id,source_segment_id
+CRT-01-PROFILE,CRT-01,BIOGRAPHICAL_PROFILE,嘉宾名称：陈锐霆（01）嘉宾身份：1906年出生于即墨鳌山卫镇盘龙庄村。九一八后投入商震32军，1937年入党。1939年冬季攻势后陈锐霆升任142师425团团长。1940年92军入鲁，为避免与新四军发生摩擦，1941年4月19日，率部千余人起义。后在起义官兵叛变时陈锐霆身受重伤。伤愈归队后曾任新四军军部参谋处处长。1946年1月，陈锐霆任新四军暨山东军区司令部参谋处长。1947年3月任华东野战军特种兵纵队司令员。1949年中华人民共和国成立后，陈锐霆任华东军区炮兵司令。1952年调任中国人民解放军炮兵参谋长。采访时间：2009-04-20采访地点：陈锐霆复兴路家中口述资料：一校：张志鹏  二校：周家旺 内容摘要：陈锐霆讲述小时候遭遇日本兵受欺负的经历；讲述因济南五三惨案而放弃教书去参军；讲述参加河北军事政治学校的过程；讲述在河北军事政治学校学习的情况；讲述军校毕业后参军的初期经历。01. 陈锐霆 090422,原文编校者,EDITORIAL_PROFILE,DOCUMENT,CRT-01,CRT-01-S0001
+CRT-01-A001,CRT-01,五三惨案历史注, 注：五三惨案是1928年5月3日，日军在山东济南大肆屠杀中国军民及外交官员的血腥事件，又称济南惨案。,原文编校者,EDITORIAL_NOTE,ENTITY,EVT-53,CRT-01-N001
+CRT-01-A002,CRT-01,商震人物注, 注：商震（1888-1978），祖籍浙江绍兴，生于河北保定。晋绥军早期名将，民国陆军二级上将。历任河北省主席、山西省主席、河南省主席。抗战时期任第二十集团军总司令、第六战区司令长官，战后任中国驻美军事代表团团长、国民政府参军长、中国驻日代表团团长等职。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-SHANGZHEN,CRT-01-N002
+CRT-01-Q0003,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0004,CRT-01-S0003
+CRT-01-Q0005,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0006,CRT-01-S0005
+CRT-01-Q0007,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0009,CRT-01-S0007
+CRT-01-Q0010,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0011,CRT-01-S0010
+CRT-01-Q0012,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0013,CRT-01-S0012
+CRT-01-Q0014,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0016,CRT-01-S0014
+CRT-01-Q0021,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0022,CRT-01-S0021
+CRT-01-Q0027,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0028,CRT-01-S0027
+CRT-01-Q0035,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0036,CRT-01-S0035
+CRT-01-Q0037,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0038,CRT-01-S0037
+CRT-01-Q0045,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0046,CRT-01-S0045
+CRT-01-Q0049,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0050,CRT-01-S0049
+CRT-01-Q0061,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0062,CRT-01-S0061
+CRT-01-Q0068,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0070,CRT-01-S0068
+CRT-01-Q0071,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0072,CRT-01-S0071
+CRT-01-Q0077,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0078,CRT-01-S0077
+CRT-01-Q0081,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0082,CRT-01-S0081
+CRT-01-Q0089,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0091,CRT-01-S0089
+CRT-01-Q0098,CRT-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-01-S0100,CRT-01-S0098

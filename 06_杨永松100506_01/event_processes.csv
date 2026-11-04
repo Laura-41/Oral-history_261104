@@ -1,0 +1,8 @@
+﻿process_id,event_id,event_type_id,process_text,process_normalized,evidence_segment_id,confidence
+YYS-E01-PROC,YYS-E01,MATERIAL_EVENT,北撤、整训并进行抗战准备,北撤、整训并进行抗战准备,YYS-01-S0008,HIGH
+YYS-E02-PROC,YYS-E02,MATERIAL_EVENT,改编并重新编成旅团,改编并重新编成旅团,YYS-01-S0020,HIGH
+YYS-E03-PROC,YYS-E03,MENTAL_EVENT,克服不舍并接受换帽换装,克服不舍并接受换帽换装,YYS-01-S0024,HIGH
+YYS-E04-PROC,YYS-E04,MATERIAL_EVENT,行军、渡河并抵达侯马,行军、渡河并抵达侯马,YYS-01-S0030,HIGH
+YYS-E05-PROC,YYS-E05,RELATIONAL_EVENT,由杨得志接任团长,由杨得志接任团长,YYS-01-S0041,HIGH
+YYS-E06-PROC,YYS-E06,MATERIAL_EVENT,乘车、修路、躲避轰炸并转进集结,乘车、修路、躲避轰炸并转进集结,YYS-01-S0045,HIGH
+YYS-E07-PROC,YYS-E07,MENTAL_EVENT,观察并判断抗日工事准备不足,观察并判断抗日工事准备不足,YYS-01-S0079,HIGH

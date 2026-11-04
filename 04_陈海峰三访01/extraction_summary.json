@@ -1,0 +1,23 @@
+{
+  "doc_id": "CHF-V3-01",
+  "source_file": "/Users/yuqi/Desktop/硕士毕业论文/2609/0920_01/现行标注/04_陈海峰三访01/source_converted.docx",
+  "body_character_count": 8083,
+  "body_block_count": 184,
+  "xml_stats": {
+    "paragraphs": 337,
+    "tables": 0,
+    "text_nodes": 2322,
+    "insertions": 1207,
+    "deletions": 2343,
+    "comment_refs": 0,
+    "footnote_refs": 10,
+    "endnote_refs": 0,
+    "textboxes": 2,
+    "has_comments_part": false,
+    "has_footnotes_part": true,
+    "has_endnotes_part": false
+  },
+  "additional_parts": {
+    "footnotes": 6
+  }
+}

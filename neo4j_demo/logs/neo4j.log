@@ -1,0 +1,248 @@
+2026-11-03 04:32:17.677+0000 INFO  Running in daemon mode, all <Console> appenders will be suppressed:
+2026-11-03 04:32:17.680+0000 INFO  Removing console appender 'ConsoleAppender' with target 'SYSTEM_OUT'.
+2026-11-03 04:32:17.680+0000 INFO  Logging config in use: File '/tmp/oral_history_neo4j_demo/conf/user-logs.xml'
+2026-11-03 04:32:17.685+0000 INFO  Starting...
+2026-11-03 04:32:18.378+0000 INFO  This instance is ServerId{4858de01} (4858de01-0bbf-4c60-b07d-63a9e4beb73b)
+2026-11-03 04:32:19.058+0000 INFO  ======== Neo4j 2026.05.0 ========
+2026-11-03 04:32:19.566+0000 INFO  X-Forward header processing enabled with security controls
+2026-11-03 04:32:19.566+0000 WARN  SECURITY WARNING: X-Forward headers accepted from any source - configure allow_proxies
+2026-11-03 04:32:19.566+0000 WARN  SECURITY WARNING: X-Forward headers accept any hostname - configure allow_hosts
+2026-11-03 04:34:11.080+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-11-03 04:34:13.104+0000 ERROR Fleet manager encountered an error: This database is shutdown.
+org.neo4j.graphdb.DatabaseShutdownException: This database is shutdown.
+	at org.neo4j.graphdb.DatabaseShutdownException.databaseUnavailable(DatabaseShutdownException.java:51)
+	at org.neo4j.kernel.availability.DatabaseAvailabilityGuard.assertDatabaseAvailable(DatabaseAvailabilityGuard.java:159)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseFacade.beginKernelTransaction(GraphDatabaseFacade.java:166)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseFacade.beginTransactionInternal(GraphDatabaseFacade.java:131)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseFacade.beginTransaction(GraphDatabaseFacade.java:96)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseTransactions.beginTransaction(GraphDatabaseTransactions.java:108)
+	at org.neo4j.fleetmanagement.common.TransactionUtil.withTransactionAndErrorHandling(TransactionUtil.java:93)
+	at org.neo4j.fleetmanagement.common.TransactionUtil.withSystemTransactionAndErrorHandling(TransactionUtil.java:109)
+	at org.neo4j.fleetmanagement.common.TransactionUtil.withSystemTransaction(TransactionUtil.java:61)
+	at org.neo4j.fleetmanagement.transactions.AbstractTransactor.getTokenStatus(AbstractTransactor.java:63)
+	at org.neo4j.fleetmanagement.transactions.Transactor.getTokenStatus(Transactor.java:65)
+	at org.neo4j.fleetmanagement.configuration.ClusterSync.run(ClusterSync.java:37)
+	at org.neo4j.fleetmanagement.bootstrap.FleetManagerTask.run(FleetManagerTask.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.io.fs.watcher.DatabaseLayoutWatcher@1aa59698' was successfully initialized, but failed to start. Please see the attached cause exception "File `/Users/yuqi/Desktop/u7855/u58EB/u6BD5/u4E1A/u8BBA/u6587/2609/0920_01/u4EE5/u5F80/u5DE5/u4F5C/neo4j-community-2-2026.06.28` is not a directory. Only directories can be registered to be monitored.".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:364)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:91)
+	at org.neo4j.kernel.database.AbstractDatabase.start(AbstractDatabase.java:168)
+	at org.neo4j.dbms.database.DatabaseLifecycles.startDatabase(DatabaseLifecycles.java:132)
+	at org.neo4j.dbms.database.DatabaseLifecycles$SystemDatabaseStarter.start(DatabaseLifecycles.java:160)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:347)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:91)
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:282)
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:225)
+	at org.neo4j.server.CommunityBootstrapper.createNeo(CommunityBootstrapper.java:39)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:200)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:143)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:106)
+	at org.neo4j.server.Neo4jCommunity.main(Neo4jCommunity.java:30)
+Caused by: java.lang.IllegalArgumentException: File `/Users/yuqi/Desktop/u7855/u58EB/u6BD5/u4E1A/u8BBA/u6587/2609/0920_01/u4EE5/u5F80/u5DE5/u4F5C/neo4j-community-2-2026.06.28` is not a directory. Only directories can be registered to be monitored.
+	at org.neo4j.io.fs.watcher.DefaultFileSystemWatcher.watch(DefaultFileSystemWatcher.java:60)
+	at org.neo4j.io.fs.watcher.DatabaseLayoutWatcher.watchFile(DatabaseLayoutWatcher.java:104)
+	at org.neo4j.io.fs.watcher.DatabaseLayoutWatcher.startWatching(DatabaseLayoutWatcher.java:98)
+	at org.neo4j.io.fs.watcher.DatabaseLayoutWatcher.watchDirectories(DatabaseLayoutWatcher.java:80)
+	at org.neo4j.io.fs.watcher.DatabaseLayoutWatcher.start(DatabaseLayoutWatcher.java:62)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:347)
+	... 13 more
+2026-11-03 04:34:13.107+0000 ERROR Fleet manager failed to run ConnectServiceTask
+java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "org.neo4j.fleetmanagement.common.TransactionUtil.withSystemTransaction(org.neo4j.dbms.api.DatabaseManagementService, org.neo4j.fleetmanagement.common.TransactionWork)" is null
+	at org.neo4j.fleetmanagement.transactions.AbstractTransactor.getTokenStatus(AbstractTransactor.java:63)
+	at org.neo4j.fleetmanagement.transactions.Transactor.getTokenStatus(Transactor.java:65)
+	at org.neo4j.fleetmanagement.configuration.ClusterSync.run(ClusterSync.java:37)
+	at org.neo4j.fleetmanagement.bootstrap.FleetManagerTask.run(FleetManagerTask.java:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-03 04:34:23.309+0000 ERROR Failed to start Neo4j on 127.0.0.1:7476.
+java.lang.RuntimeException: Error starting Neo4j database server at /Users/yuqi/Desktop/硕士毕业论文/2609/0920_01/现行标注/neo4j_demo/data/databases
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:291)
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:225)
+	at org.neo4j.server.CommunityBootstrapper.createNeo(CommunityBootstrapper.java:39)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:200)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:143)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:106)
+	at org.neo4j.server.Neo4jCommunity.main(Neo4jCommunity.java:30)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.dbms.database.DefaultSystemGraphInitializer@6e685e6c' was successfully initialized, but failed to start. Please see the attached cause exception "File `/Users/yuqi/Desktop/u7855/u58EB/u6BD5/u4E1A/u8BBA/u6587/2609/0920_01/u4EE5/u5F80/u5DE5/u4F5C/neo4j-community-2-2026.06.28` is not a directory. Only directories can be registered to be monitored.".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:364)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:91)
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:282)
+	... 6 more
+	Suppressed: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.dbms.database.DatabaseLifecycles$AllDatabaseStopper@221cdd87' failed to stop. Please see the attached cause exception "null".
+		at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:378)
+		at org.neo4j.kernel.lifecycle.LifeSupport.stopInstances(LifeSupport.java:211)
+		at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:119)
+		at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:96)
+		... 7 more
+	Caused by: org.neo4j.dbms.systemgraph.SystemDatabaseProvider$SystemDatabaseUnavailableException
+		at org.neo4j.dbms.systemgraph.SystemDatabaseProvider.query(SystemDatabaseProvider.java:80)
+		at org.neo4j.dbms.systemgraph.SystemDatabaseProvider.query(SystemDatabaseProvider.java:49)
+		at org.neo4j.dbms.database.CommunityDatabaseObjectRepositoryModelProvider.withModel(CommunityDatabaseObjectRepositoryModelProvider.java:37)
+		at org.neo4j.kernel.database.ModelBasedDatabaseIdRepository.getByName(ModelBasedDatabaseIdRepository.java:40)
+		at org.neo4j.kernel.database.MapCachingDatabaseIdRepository.lambda$getByName$0(MapCachingDatabaseIdRepository.java:50)
+		at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740)
+		at org.neo4j.kernel.database.MapCachingDatabaseIdRepository.getByName(MapCachingDatabaseIdRepository.java:49)
+		at org.neo4j.kernel.database.DatabaseIdRepository.getByName(DatabaseIdRepository.java:63)
+		at org.neo4j.dbms.database.DatabaseRepository.getDatabaseContext(DatabaseRepository.java:54)
+		at org.neo4j.dbms.database.DatabaseLifecycles.defaultContext(DatabaseLifecycles.java:80)
+		at org.neo4j.dbms.database.DatabaseLifecycles$AllDatabaseStopper.stop(DatabaseLifecycles.java:167)
+		at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:374)
+		... 10 more
+Caused by: org.neo4j.graphdb.DatabaseShutdownException: This database is shutdown.
+	at org.neo4j.graphdb.DatabaseShutdownException.databaseUnavailable(DatabaseShutdownException.java:51)
+	at org.neo4j.kernel.availability.DatabaseAvailabilityGuard.assertDatabaseAvailable(DatabaseAvailabilityGuard.java:159)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseFacade.beginKernelTransaction(GraphDatabaseFacade.java:166)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseFacade.beginTransactionInternal(GraphDatabaseFacade.java:131)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseFacade.beginTransaction(GraphDatabaseFacade.java:96)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseTransactions.beginTransaction(GraphDatabaseTransactions.java:108)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseTransactions.beginTransaction(GraphDatabaseTransactions.java:102)
+	at org.neo4j.kernel.internal.GraphDatabaseAPI.beginTransaction(GraphDatabaseAPI.java:69)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseTransactions.beginTx(GraphDatabaseTransactions.java:92)
+	at org.neo4j.dbms.database.SystemGraphComponents.initializeSystemGraph(SystemGraphComponents.java:85)
+	at org.neo4j.dbms.database.DefaultSystemGraphInitializer.initializeSystemGraph(DefaultSystemGraphInitializer.java:38)
+	at org.neo4j.dbms.database.SystemGraphInitializer.start(SystemGraphInitializer.java:27)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:347)
+	... 8 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.io.fs.watcher.DatabaseLayoutWatcher@1aa59698' was successfully initialized, but failed to start. Please see the attached cause exception "File `/Users/yuqi/Desktop/u7855/u58EB/u6BD5/u4E1A/u8BBA/u6587/2609/0920_01/u4EE5/u5F80/u5DE5/u4F5C/neo4j-community-2-2026.06.28` is not a directory. Only directories can be registered to be monitored.".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:364)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:91)
+	at org.neo4j.kernel.database.AbstractDatabase.start(AbstractDatabase.java:168)
+	at org.neo4j.dbms.database.DatabaseLifecycles.startDatabase(DatabaseLifecycles.java:132)
+	at org.neo4j.dbms.database.DatabaseLifecycles$SystemDatabaseStarter.start(DatabaseLifecycles.java:160)
+	... 9 more
+Caused by: java.lang.IllegalArgumentException: File `/Users/yuqi/Desktop/u7855/u58EB/u6BD5/u4E1A/u8BBA/u6587/2609/0920_01/u4EE5/u5F80/u5DE5/u4F5C/neo4j-community-2-2026.06.28` is not a directory. Only directories can be registered to be monitored.
+	at org.neo4j.io.fs.watcher.DefaultFileSystemWatcher.watch(DefaultFileSystemWatcher.java:60)
+	at org.neo4j.io.fs.watcher.DatabaseLayoutWatcher.watchFile(DatabaseLayoutWatcher.java:104)
+	at org.neo4j.io.fs.watcher.DatabaseLayoutWatcher.startWatching(DatabaseLayoutWatcher.java:98)
+	at org.neo4j.io.fs.watcher.DatabaseLayoutWatcher.watchDirectories(DatabaseLayoutWatcher.java:80)
+	at org.neo4j.io.fs.watcher.DatabaseLayoutWatcher.start(DatabaseLayoutWatcher.java:62)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:347)
+	... 13 more
+2026-11-03 04:34:23.310+0000 INFO  Neo4j Server shutdown initiated by request
+2026-11-03 04:34:23.311+0000 INFO  Stopped.
+2026-11-03 04:55:31.779+0000 INFO  Running in daemon mode, all <Console> appenders will be suppressed:
+2026-11-03 04:55:31.781+0000 INFO  Removing console appender 'ConsoleAppender' with target 'SYSTEM_OUT'.
+2026-11-03 04:55:31.782+0000 INFO  Logging config in use: File '/tmp/oral_history_neo4j_demo/conf/user-logs.xml'
+2026-11-03 04:55:31.786+0000 INFO  Starting...
+2026-11-03 04:55:32.645+0000 INFO  This instance is ServerId{9f17f619} (9f17f619-8eb2-458b-8422-5a289768b354)
+2026-11-03 04:55:33.363+0000 INFO  ======== Neo4j 2026.05.0 ========
+2026-11-03 04:55:34.079+0000 INFO  X-Forward header processing enabled with security controls
+2026-11-03 04:55:34.079+0000 WARN  SECURITY WARNING: X-Forward headers accepted from any source - configure allow_proxies
+2026-11-03 04:55:34.079+0000 WARN  SECURITY WARNING: X-Forward headers accept any hostname - configure allow_hosts
+2026-11-03 04:55:34.840+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-11-03 04:55:35.110+0000 INFO  Bolt enabled on localhost:7688.
+2026-11-03 04:55:35.116+0000 INFO  Fleet discovery broadcasts have been enabled for 1 network: 10.203.255.255
+2026-11-03 04:55:35.847+0000 INFO  This server has built-in support for online monitoring through Fleet Manager. Visit https://console.neo4j.io to get started!
+2026-11-03 04:55:36.094+0000 INFO  HTTP enabled on 127.0.0.1:7476.
+2026-11-03 04:55:36.094+0000 INFO  Remote interface available at http://localhost:7476/
+2026-11-03 04:55:36.096+0000 INFO  id: F3F45208811DA769303091343946464AF3187D0650A1B1DA041508609D783D82
+2026-11-03 04:55:36.096+0000 INFO  name: system
+2026-11-03 04:55:36.096+0000 INFO  creationDate: 2026-11-03T04:33:37.611Z
+2026-11-03 04:55:36.096+0000 INFO  Started.
+2026-11-03 05:01:19.217+0000 INFO  Neo4j Server shutdown initiated by request
+2026-11-03 05:01:19.219+0000 INFO  Stopping...
+2026-11-03 05:01:30.183+0000 INFO  Stopped.
+2026-11-03 05:03:32.603+0000 INFO  Logging config in use: File '/tmp/oral_history_neo4j_demo/conf/user-logs.xml'
+2026-11-03 05:03:32.610+0000 INFO  Starting...
+2026-11-03 05:03:33.527+0000 INFO  This instance is ServerId{9f17f619} (9f17f619-8eb2-458b-8422-5a289768b354)
+2026-11-03 05:03:34.230+0000 INFO  ======== Neo4j 2026.05.0 ========
+2026-11-03 05:03:35.001+0000 INFO  X-Forward header processing enabled with security controls
+2026-11-03 05:03:35.001+0000 WARN  SECURITY WARNING: X-Forward headers accepted from any source - configure allow_proxies
+2026-11-03 05:03:35.001+0000 WARN  SECURITY WARNING: X-Forward headers accept any hostname - configure allow_hosts
+2026-11-03 05:03:35.731+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-11-03 05:03:36.006+0000 INFO  Bolt enabled on localhost:7688.
+2026-11-03 05:03:36.013+0000 INFO  Fleet discovery broadcasts have been enabled for 1 network: 10.203.255.255
+2026-11-03 05:03:36.738+0000 INFO  This server has built-in support for online monitoring through Fleet Manager. Visit https://console.neo4j.io to get started!
+2026-11-03 05:03:37.069+0000 INFO  HTTP enabled on 127.0.0.1:7476.
+2026-11-03 05:03:37.069+0000 INFO  Remote interface available at http://localhost:7476/
+2026-11-03 05:03:37.070+0000 INFO  id: F3F45208811DA769303091343946464AF3187D0650A1B1DA041508609D783D82
+2026-11-03 05:03:37.070+0000 INFO  name: system
+2026-11-03 05:03:37.070+0000 INFO  creationDate: 2026-11-03T04:33:37.611Z
+2026-11-03 05:03:37.070+0000 INFO  Started.
+2026-11-03 05:12:00.068+0000 INFO  Neo4j Server shutdown initiated by request
+2026-11-03 05:12:00.072+0000 INFO  Stopping...
+2026-11-03 05:12:10.937+0000 INFO  Stopped.
+2026-11-03 05:30:25.842+0000 INFO  Logging config in use: File '/tmp/oral_history_neo4j_demo/conf/user-logs.xml'
+2026-11-03 05:30:25.849+0000 INFO  Starting...
+2026-11-03 05:30:26.818+0000 INFO  This instance is ServerId{9f17f619} (9f17f619-8eb2-458b-8422-5a289768b354)
+2026-11-03 05:30:27.562+0000 INFO  ======== Neo4j 2026.05.0 ========
+2026-11-03 05:30:28.273+0000 INFO  X-Forward header processing enabled with security controls
+2026-11-03 05:30:28.273+0000 WARN  SECURITY WARNING: X-Forward headers accepted from any source - configure allow_proxies
+2026-11-03 05:30:28.273+0000 WARN  SECURITY WARNING: X-Forward headers accept any hostname - configure allow_hosts
+2026-11-03 05:30:28.999+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-11-03 05:30:29.292+0000 INFO  Bolt enabled on localhost:7687.
+2026-11-03 05:30:29.299+0000 INFO  Fleet discovery broadcasts have been enabled for 1 network: 10.203.255.255
+2026-11-03 05:30:30.006+0000 INFO  This server has built-in support for online monitoring through Fleet Manager. Visit https://console.neo4j.io to get started!
+2026-11-03 05:30:30.402+0000 INFO  HTTP enabled on 127.0.0.1:7474.
+2026-11-03 05:30:30.402+0000 INFO  Remote interface available at http://127.0.0.1:7474/
+2026-11-03 05:30:30.403+0000 INFO  id: F3F45208811DA769303091343946464AF3187D0650A1B1DA041508609D783D82
+2026-11-03 05:30:30.403+0000 INFO  name: system
+2026-11-03 05:30:30.404+0000 INFO  creationDate: 2026-11-03T04:33:37.611Z
+2026-11-03 05:30:30.404+0000 INFO  Started.
+2026-11-03 06:15:21.206+0000 INFO  Neo4j Server shutdown initiated by request
+2026-11-03 06:15:21.207+0000 INFO  Stopping...
+2026-11-03 06:15:32.246+0000 INFO  Stopped.
+2026-11-03 06:16:05.079+0000 INFO  Running in daemon mode, all <Console> appenders will be suppressed:
+2026-11-03 06:16:05.081+0000 INFO  Removing console appender 'ConsoleAppender' with target 'SYSTEM_OUT'.
+2026-11-03 06:16:05.081+0000 INFO  Logging config in use: File '/tmp/oral_history_neo4j_demo/conf/user-logs.xml'
+2026-11-03 06:16:05.086+0000 INFO  Starting...
+2026-11-03 06:16:05.731+0000 INFO  This instance is ServerId{9f17f619} (9f17f619-8eb2-458b-8422-5a289768b354)
+2026-11-03 06:16:06.358+0000 INFO  ======== Neo4j 2026.05.0 ========
+2026-11-03 06:16:06.872+0000 INFO  X-Forward header processing enabled with security controls
+2026-11-03 06:16:06.872+0000 WARN  SECURITY WARNING: X-Forward headers accepted from any source - configure allow_proxies
+2026-11-03 06:16:06.872+0000 WARN  SECURITY WARNING: X-Forward headers accept any hostname - configure allow_hosts
+2026-11-03 06:16:07.684+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-11-03 06:16:19.003+0000 ERROR Failed to start Neo4j on 127.0.0.1:7474.
+java.lang.RuntimeException: Error starting Neo4j database server at /Users/yuqi/Desktop/硕士毕业论文/2609/0920_01/现行标注/neo4j_demo/data/databases
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:291)
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:225)
+	at org.neo4j.server.CommunityBootstrapper.createNeo(CommunityBootstrapper.java:39)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:200)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:143)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:106)
+	at org.neo4j.server.Neo4jCommunity.main(Neo4jCommunity.java:30)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.bolt.protocol.common.connector.netty.SocketNettyConnector@4353db40' was successfully initialized, but failed to start. Please see the attached cause exception "bind(..) failed with error(-1): Operation not permitted".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:364)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:91)
+	at org.neo4j.bolt.BoltServer.start(BoltServer.java:444)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:347)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:91)
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:282)
+	... 6 more
+Caused by: org.neo4j.configuration.helpers.PortBindException: An error occurred while trying to bind to the socket /127.0.0.1:7687
+	at org.neo4j.bolt.protocol.common.connector.netty.AbstractNettyConnector.start(AbstractNettyConnector.java:229)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:347)
+	... 11 more
+Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed with error(-1): Operation not permitted
+2026-11-03 06:16:19.004+0000 INFO  Neo4j Server shutdown initiated by request
+2026-11-03 06:16:19.005+0000 INFO  Stopped.
+2026-11-03 10:16:39.022+0000 INFO  Logging config in use: File '/tmp/oral_history_neo4j_demo/conf/user-logs.xml'
+2026-11-03 10:16:39.029+0000 INFO  Starting...
+2026-11-03 10:16:39.993+0000 INFO  This instance is ServerId{9f17f619} (9f17f619-8eb2-458b-8422-5a289768b354)
+2026-11-03 10:16:40.749+0000 INFO  ======== Neo4j 2026.05.0 ========
+2026-11-03 10:16:41.298+0000 INFO  X-Forward header processing enabled with security controls
+2026-11-03 10:16:41.298+0000 WARN  SECURITY WARNING: X-Forward headers accepted from any source - configure allow_proxies
+2026-11-03 10:16:41.298+0000 WARN  SECURITY WARNING: X-Forward headers accept any hostname - configure allow_hosts
+2026-11-03 10:16:42.097+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-11-03 10:16:42.373+0000 INFO  Bolt enabled on localhost:7687.
+2026-11-03 10:16:42.380+0000 INFO  Fleet discovery broadcasts have been enabled for 1 network: 10.203.255.255
+2026-11-03 10:16:43.103+0000 INFO  This server has built-in support for online monitoring through Fleet Manager. Visit https://console.neo4j.io to get started!
+2026-11-03 10:16:43.570+0000 INFO  HTTP enabled on 127.0.0.1:7474.
+2026-11-03 10:16:43.570+0000 INFO  Remote interface available at http://127.0.0.1:7474/
+2026-11-03 10:16:43.572+0000 INFO  id: F3F45208811DA769303091343946464AF3187D0650A1B1DA041508609D783D82
+2026-11-03 10:16:43.572+0000 INFO  name: system
+2026-11-03 10:16:43.572+0000 INFO  creationDate: 2026-11-03T04:33:37.611Z
+2026-11-03 10:16:43.572+0000 INFO  Started.
+2026-11-04 07:39:58.284+0000 INFO  Neo4j Server shutdown initiated by request
+2026-11-04 07:39:58.289+0000 INFO  Stopping...
+2026-11-04 07:40:09.345+0000 INFO  Stopped.

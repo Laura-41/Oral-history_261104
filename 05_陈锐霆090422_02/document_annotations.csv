@@ -1,0 +1,22 @@
+﻿annotation_id,doc_id,annotation_type,annotation_text,author_or_editor,source_status,target_type,target_id,source_segment_id
+CRT-02-PROFILE,CRT-02,BIOGRAPHICAL_PROFILE,嘉宾名称：陈锐霆（02）嘉宾身份：1906年出生于即墨鳌山卫镇盘龙庄村。九一八后投入商震32军，1937年入党。1939年冬季攻势后陈锐霆升任142师425团团长。1940年92军入鲁，为避免与新四军发生摩擦，1941年4月19日，率部千余人起义。后在起义官兵叛变时陈锐霆身受重伤。伤愈归队后曾任新四军军部参谋处处长。1946年1月，陈锐霆任新四军暨山东军区司令部参谋处长。1947年3月任华东野战军特种兵纵队司令员。1949年中华人民共和国成立后，陈锐霆任华东军区炮兵司令。1952年调任中国人民解放军炮兵参谋长。采访时间：2009-04-20 采访地点：陈锐霆复兴路家中口述资料：一校：张志鹏  二校：周家旺 内容摘要：陈锐霆讲述商震和阎锡山的关系；讲述他担任炮兵大队区队长的经历；讲述他考上南京炮校的经过；讲述他通过王兴纲思想上逐渐倾向共产党的过程。02.陈锐霆 090422,原文编校者,EDITORIAL_PROFILE,DOCUMENT,CRT-02,CRT-02-S0001
+CRT-02-A001,CRT-02,丁惟汾人物注, 注：丁惟汾（1874-1954），字鼎丞。山东省日照市人，毕业于保定师范学校。同盟会创始人之一。1911年武昌起义爆发，丁惟汾曾领导济南学界积极响应，迫使山东巡抚宣布独立。作为国民党元老，蒋介石尊称他为“七哥”，1949年赴台湾任监察院委员等职。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-DINGWEIFEN,CRT-02-N001
+CRT-02-A002,CRT-02,石友三人物注, 注：石友三（1891-1940），字汉章，吉林省人。一生中投机钻营，反复无常，时人称为“倒戈将军”。登封少林寺被他几乎焚毁殆尽。1931年石友三接受汪精卫广州国民政府任命，出兵反对张学良，遭到蒋介石和张学良的南北夹击，商震镇压了此次政变后被任命为新编成的第32军军长。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-SHIYOUSAN,CRT-02-N002
+CRT-02-A003,CRT-02,何梅协定历史注, 注：《何梅协定》，1935年7月6日，国民政府军事委员会北平分会代理委员长何应钦复函日本中国驻屯军司令官梅津美治郎，就解决河北事件问题，表示接受6月11日梅津就华北问题提出的备忘录全部条件，通称《何梅协定》。根据协定，中国在河北省和察哈尔省的主权大部丧失。,原文编校者,EDITORIAL_NOTE,ENTITY,EVT-HEMEI,CRT-02-N003
+CRT-02-A004,CRT-02,何应钦人物注, 注：何应钦（1890-1987），字敬之，贵州兴义人。曾为中华民国陆军一级上将、黄埔军校总教官、国民政府军事委员会参谋总长、陆军总司令、国防部部长、行政院院长等政府要职。并为黄埔军校校旗设计者，也是中华民国国徽设计者。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-HEYINGQIN,CRT-02-N004
+CRT-02-A005,CRT-02,王兴纲人物注, 注：王兴纲（1905-1993），河北乐亭县人。1928年加入中国共产党。后在国民党军内从事地下工作。1941年参加新四军，1955年被授予少将军衔。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-WANGXINGGANG,CRT-02-N005
+CRT-02-Q0009,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0010,CRT-02-S0009
+CRT-02-Q0011,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0012,CRT-02-S0011
+CRT-02-Q0015,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0016,CRT-02-S0015
+CRT-02-Q0027,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0028,CRT-02-S0027
+CRT-02-Q0038,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0039,CRT-02-S0038
+CRT-02-Q0043,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0044,CRT-02-S0043
+CRT-02-Q0049,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0050,CRT-02-S0049
+CRT-02-Q0061,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0062,CRT-02-S0061
+CRT-02-Q0078,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0081,CRT-02-S0078
+CRT-02-Q0079,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0081,CRT-02-S0079
+CRT-02-Q0082,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0083,CRT-02-S0082
+CRT-02-Q0084,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0085,CRT-02-S0084
+CRT-02-Q0086,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0087,CRT-02-S0086
+CRT-02-Q0090,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0091,CRT-02-S0090
+CRT-02-Q0092,CRT-02,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CRT-02-S0093,CRT-02-S0092

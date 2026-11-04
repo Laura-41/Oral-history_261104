@@ -1,0 +1,6 @@
+﻿process_id,event_id,event_type_id,process_text,process_normalized,evidence_segment_id,confidence
+CRT-02-E01-PROC,CRT-02-E01,MATERIAL_EVENT,转赴河北并担任炮兵区队长,转赴河北并担任炮兵区队长,CRT-02-S0020,HIGH
+CRT-02-E02-PROC,CRT-02-E02,MATERIAL_EVENT,参加抗日游行示威,参加抗日游行示威,CRT-02-S0033,HIGH
+CRT-02-E03-PROC,CRT-02-E03,MATERIAL_EVENT,驻训并整修营房、开荒生产,驻训并整修营房、开荒生产,CRT-02-S0044,HIGH
+CRT-02-E04-PROC,CRT-02-E04,MATERIAL_EVENT,应考、入校并完成炮兵学习,应考、入校并完成炮兵学习,CRT-02-S0052,HIGH
+CRT-02-E05-PROC,CRT-02-E05,MENTAL_EVENT,了解并认同共产党的抗日和社会主张,了解并认同共产党的抗日和社会主张,CRT-02-S0060,HIGH

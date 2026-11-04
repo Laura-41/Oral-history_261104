@@ -1,0 +1,6 @@
+﻿event_id,doc_id,event_name,narrative_order,historical_order,result_state,factuality,confidence,boundary_note,boundary_confidence,review_status
+CHF-V3-E01,CHF-V3-01,第三支队由谭震林实际统一指挥并完成指挥更替,1,1,第三支队形成由谭震林实际统筹党政军、后由张正坤接任的指挥结构,FACT,HIGH,从介绍新四军四支队建制开始，以张正坤接任并在皖南事变中牺牲为阶段终点,HIGH,MODEL_CANDIDATE
+CHF-V3-E02,CHF-V3-01,叶飞率第六团主力东进后第三支队压缩为五个作战营,2,2,第三支队由第五团三个营、第六团三营和司令部警卫营构成主要作战力量,FACT,HIGH,从1939年叶飞率第六团团部和两个营东进开始，以第三支队直接指挥五个营为结果,HIGH,MODEL_CANDIDATE
+CHF-V3-E03,CHF-V3-01,第三支队在铜南繁一线执行防御和游击作战,3,3,牵制芜湖方向日军并维持皖南军部前沿安全,FACT,HIGH,从说明面对芜湖南京方向的任务开始，以界定铜陵南陵繁昌防区及八次繁昌战斗为阶段结果,HIGH,MODEL_CANDIDATE
+CHF-V3-E04,CHF-V3-01,第三支队维持顺安至无为的军部过江交通线,4,4,皖南军部与江北之间的人员、弹药和信息往来得以维持,FACT,HIGH,从说明军部需要与江北联系开始，以明确地下兵站、交通站和护送机制为阶段结果,HIGH,MODEL_CANDIDATE
+CHF-V3-E05,CHF-V3-01,皖南军部筹划并分批向江北撤离,5,5,后方机关先行分批撤出，作战部队准备轻装撤离,FACT,HIGH,从国民党多次逼迫新四军北撤开始，以后方机关已分批撤离和路线争议形成为阶段结果,HIGH,MODEL_CANDIDATE

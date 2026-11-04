@@ -1,0 +1,23 @@
+{
+  "doc_id": "CHF-V1-01",
+  "source_file": "/Users/yuqi/Desktop/硕士毕业论文/2609/0920_01/语料/C 陈海峰_4+8+23/1访/01.陈海峰（一访）（二校后 阅读版）.docx",
+  "body_character_count": 7447,
+  "body_block_count": 79,
+  "xml_stats": {
+    "paragraphs": 104,
+    "tables": 0,
+    "text_nodes": 1053,
+    "insertions": 383,
+    "deletions": 517,
+    "comment_refs": 0,
+    "footnote_refs": 5,
+    "endnote_refs": 0,
+    "textboxes": 1,
+    "has_comments_part": false,
+    "has_footnotes_part": true,
+    "has_endnotes_part": false
+  },
+  "additional_parts": {
+    "footnotes": 5
+  }
+}

@@ -1,0 +1,14 @@
+﻿annotation_id,doc_id,annotation_type,annotation_text,author_or_editor,source_status,target_type,target_id,source_segment_id
+CHF-V1-01-PROFILE,CHF-V1-01,BIOGRAPHICAL_PROFILE,嘉宾名称：陈海峰（一访）（01）嘉宾身份：出生于1912年8月4日，江苏江阴前周乡东篁村人，乳名永嘉。小学毕业后在上海荣华印书馆任排字工人，1935年自发组织学徒罢工；1938年2月参加江南抗日义勇军第三路，任宣传、情报站长；1938年10月赴新四军军部教导总队学习；1939年8月毕业于新四军军医处第二期公共卫生人员训练班；1939年至1941年12月历任三支队军医处卫生巡视员、五团二营卫生指导员、五团卫生队长、新四军一师二旅五团卫生队长、皖南新四军前方医院外科病室副室长；1940年12月6日入党；1942年任新四军苏中卫生学校教务主任；1943年任一师老一团卫生队长；1945年任苏浙军区卫生部医政科长兼野战医院院长等职；1946年任华中军区第一后方医院院长；1948年8月任华东军区第一重伤医院院长；1949年8月任福州卫生局长；1982年任卫生部咨询委员会委员；2013年6月17日去世。采访时间：2010-01-24采访地点：北京和平里陈海峰家口述资料：一校：孙康清  二校: 王涛内容摘要：陈海峰讲述了自己的家庭背景；很小就到印书馆做排字工人；受哥哥的影响，看到资本家对工人的剥削，毅然组织工友罢工；“八·一三 ”以后，逃难回到家乡江阴澄西；在家乡组织篁村人民抗日救亡会，宣传抗日。01陈海峰100310  ,原文编校者,EDITORIAL_PROFILE,DOCUMENT,CHF-V1-01,CHF-V1-01-S0001
+CHF-V1-01-A001,CHF-V1-01,薛暮桥人物注, 薛暮桥：（1904—2005），江苏无锡人。抗战期间，曾任新四军教导总队训练处副处长。建国后，曾任国家统计局局长、国家计委副主任等职。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-XUEMUQIAO,CHF-V1-01-N001
+CHF-V1-01-A002,CHF-V1-01,快慢机名物注, 快慢机：二战期间，毛瑟M1932冲锋手枪在中国的别称。既可以进行半自动射击，又可以进行全自动射击。,原文编校者,EDITORIAL_NOTE,ENTITY,ENT-MAUSER-M1932,CHF-V1-01-N002
+CHF-V1-01-A003,CHF-V1-01,高小生人物注, 注：高小生（1903-1931）1927年参加江阴农民暴动并入党，1929年任澄、武、丹地区游击队主要负责人，1931年被捕牺牲。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-GAOXIAOSHENG,CHF-V1-01-N003
+CHF-V1-01-A004,CHF-V1-01,张太雷人物注, 张太雷：（1898—1927），江苏武进人。是中国共产党最早的党员之一，曾任五届中央委员、中共湖北省委书记、广东省委书记等职。后在广州起义中牺牲。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-ZHANGTAILEI,CHF-V1-01-N004
+CHF-V1-01-A005,CHF-V1-01,恽代英人物注, 恽代英：（1895—1931），江苏武进人。曾任黄埔四期政治教官、共产主义青年团中央执行委员等职。1931年4月29日在南京被国民党反动派杀害。,原文编校者,EDITORIAL_NOTE,ENTITY,PER-YUNDAIYING,CHF-V1-01-N005
+CHF-V1-01-Q0003,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0004,CHF-V1-01-S0003
+CHF-V1-01-Q0021,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0022,CHF-V1-01-S0021
+CHF-V1-01-Q0033,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0034,CHF-V1-01-S0033
+CHF-V1-01-Q0035,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0036,CHF-V1-01-S0035
+CHF-V1-01-Q0037,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0038,CHF-V1-01-S0037
+CHF-V1-01-Q0039,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0040,CHF-V1-01-S0039
+CHF-V1-01-Q0062,CHF-V1-01,PROMPTS_RESPONSE,采访者提问引出受访者回答,结构化标注,inferred_from_structure,SOURCE_SEGMENT,CHF-V1-01-S0063,CHF-V1-01-S0062
