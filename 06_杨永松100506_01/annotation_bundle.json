@@ -8,9 +8,9 @@
     "version": "二校后 阅读版",
     "source_file": "0920_01/语料/Y 杨永松_10/01.杨永松100506（二校后 阅读版）.docx",
     "total_characters": 5400,
-    "data_role": "DEVELOPMENT",
+    "data_role": "WORKFLOW_DEMO",
     "include_in_study": "YES",
-    "review_status": "MODEL_CANDIDATE"
+    "review_status": "CONFIRMED"
   },
   "source_segments": [
     {
@@ -1736,7 +1736,7 @@
       "confidence": "HIGH",
       "boundary_note": "从西安事变和平解决、红军北撤开始，以卢沟桥事变后向西安附近集结为结束",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "YYS-E02",
@@ -1749,7 +1749,7 @@
       "confidence": "HIGH",
       "boundary_note": "从第一军团在三原接受改编开始，以各师旅团番号和编制确定为结束",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "YYS-E03",
@@ -1762,7 +1762,7 @@
       "confidence": "HIGH",
       "boundary_note": "从誓师大会宣布换装要求开始，以战士保存红星帽作纪念并服从出发命令为结束",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "YYS-E04",
@@ -1775,7 +1775,7 @@
       "confidence": "HIGH",
       "boundary_note": "从第六八五团作为前卫出发开始，以经富平韩城芝川渡河、经过万泉抵达侯马为结束",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "YYS-E05",
@@ -1788,7 +1788,7 @@
       "confidence": "HIGH",
       "boundary_note": "从原团长黄永胜和参谋长熊伯涛被调出开始，以新团级主官配置确立为结束",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "YYS-E06",
@@ -1801,7 +1801,7 @@
       "confidence": "HIGH",
       "boundary_note": "从侯马登上敞篷火车开始，以经太原黄寨原平和徒步转运后在大营集结为结束",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "YYS-E07",
@@ -1814,7 +1814,7 @@
       "confidence": "HIGH",
       "boundary_note": "从离开大营向平型关方向前进开始，以发现闲置建材、判断工事不足并抵达战前集结地为结束",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "processes": [
@@ -2294,7 +2294,7 @@
       "stage_summary": "西安事变和平解决后红军向北撤离",
       "process_text": "北撤",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E01-P02",
@@ -2303,7 +2303,7 @@
       "stage_summary": "在陕甘边地区整训并召开代表会议",
       "process_text": "整训与会议",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E01-P03",
@@ -2312,7 +2312,7 @@
       "stage_summary": "调整土地政策并开展国共谈判",
       "process_text": "政策调整",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E01-P04",
@@ -2321,7 +2321,7 @@
       "stage_summary": "卢沟桥事变后向西安附近集结",
       "process_text": "集结",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E02-P01",
@@ -2330,7 +2330,7 @@
       "stage_summary": "第一军团改编为第一一五师",
       "process_text": "师级改编",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E02-P02",
@@ -2339,7 +2339,7 @@
       "stage_summary": "红二师和红四师分别改编为六八五团、六八六团",
       "process_text": "团级改编",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E02-P03",
@@ -2348,7 +2348,7 @@
       "stage_summary": "红一师以独立团名义单独行动后并入旅属团",
       "process_text": "调整编制",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E03-P01",
@@ -2357,7 +2357,7 @@
       "stage_summary": "誓师大会动员换装和抗战",
       "process_text": "动员",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E03-P02",
@@ -2366,7 +2366,7 @@
       "stage_summary": "战士不舍红星帽并保存纪念",
       "process_text": "情感反应",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E03-P03",
@@ -2375,7 +2375,7 @@
       "stage_summary": "服从统一战线和抗战需要完成换装",
       "process_text": "接受",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E04-P01",
@@ -2384,7 +2384,7 @@
       "stage_summary": "从三原经富平韩城行军",
       "process_text": "行军",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E04-P02",
@@ -2393,7 +2393,7 @@
       "stage_summary": "在芝川乘船渡过黄河",
       "process_text": "渡河",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E04-P03",
@@ -2402,7 +2402,7 @@
       "stage_summary": "经万泉接受群众欢迎欢送",
       "process_text": "沿途行军",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E04-P04",
@@ -2411,7 +2411,7 @@
       "stage_summary": "抵达侯马等待列车",
       "process_text": "抵达",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E05-P01",
@@ -2420,7 +2420,7 @@
       "stage_summary": "黄永胜和熊伯涛调离团部",
       "process_text": "调出",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E05-P02",
@@ -2429,7 +2429,7 @@
       "stage_summary": "杨得志等从红大赶到部队",
       "process_text": "到任",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E05-P03",
@@ -2438,7 +2438,7 @@
       "stage_summary": "确立新团长、副团长和参谋长",
       "process_text": "任命",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E05-P04",
@@ -2447,7 +2447,7 @@
       "stage_summary": "说明人事调整与开辟根据地部署",
       "process_text": "解释",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E06-P01",
@@ -2456,7 +2456,7 @@
       "stage_summary": "乘脏旧敞篷列车离开侯马",
       "process_text": "乘车",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E06-P02",
@@ -2465,7 +2465,7 @@
       "stage_summary": "因路基塌陷多次下车修路",
       "process_text": "修路",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E06-P03",
@@ -2474,7 +2474,7 @@
       "stage_summary": "为躲避日机轰炸在黄寨夜间转运",
       "process_text": "避空袭",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E06-P04",
@@ -2483,7 +2483,7 @@
       "stage_summary": "在原平下车后徒步并转乘汽车",
       "process_text": "转运",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E06-P05",
@@ -2492,7 +2492,7 @@
       "stage_summary": "第三四三旅在大营集结完毕",
       "process_text": "集结",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E07-P01",
@@ -2501,7 +2501,7 @@
       "stage_summary": "向平型关方向行军并观察沿途工事材料",
       "process_text": "观察",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E07-P02",
@@ -2510,7 +2510,7 @@
       "stage_summary": "判断防御工事未得到实际建设",
       "process_text": "判断",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "YYS-E07-P03",
@@ -2519,7 +2519,7 @@
       "stage_summary": "在冉庄附近完成战前集结",
       "process_text": "集结",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "stage_next": [
@@ -2529,7 +2529,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E01-P02",
@@ -2537,7 +2537,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E01-P03",
@@ -2545,7 +2545,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E02-P01",
@@ -2553,7 +2553,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E02-P02",
@@ -2561,7 +2561,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E03-P01",
@@ -2569,7 +2569,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E03-P02",
@@ -2577,7 +2577,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E04-P01",
@@ -2585,7 +2585,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E04-P02",
@@ -2593,7 +2593,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E04-P03",
@@ -2601,7 +2601,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E05-P01",
@@ -2609,7 +2609,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E05-P02",
@@ -2617,7 +2617,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E05-P03",
@@ -2625,7 +2625,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E06-P01",
@@ -2633,7 +2633,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E06-P02",
@@ -2641,7 +2641,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E06-P03",
@@ -2649,7 +2649,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E06-P04",
@@ -2657,7 +2657,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E07-P01",
@@ -2665,7 +2665,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "YYS-E07-P02",
@@ -2673,7 +2673,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "event_next": [
@@ -2683,7 +2683,7 @@
       "chain_id": "YYS-01-MAIN",
       "basis": "explicit_time",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_event_id": "YYS-E02",
@@ -2691,7 +2691,7 @@
       "chain_id": "YYS-01-MAIN",
       "basis": "explicit_time",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_event_id": "YYS-E03",
@@ -2699,7 +2699,7 @@
       "chain_id": "YYS-01-MAIN",
       "basis": "explicit_time",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_event_id": "YYS-E04",
@@ -2707,7 +2707,7 @@
       "chain_id": "YYS-01-MAIN",
       "basis": "explicit_time",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_event_id": "YYS-E05",
@@ -2715,7 +2715,7 @@
       "chain_id": "YYS-01-MAIN",
       "basis": "explicit_time",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_event_id": "YYS-E06",
@@ -2723,7 +2723,7 @@
       "chain_id": "YYS-01-MAIN",
       "basis": "explicit_time",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "entities": [
@@ -5787,7 +5787,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "YYS-01-S0008",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "YYS-E02-T01",
@@ -5800,7 +5800,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "YYS-01-S0020",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "YYS-E03-T01",
@@ -5813,7 +5813,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "YYS-01-S0024",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "YYS-E04-T01",
@@ -5826,7 +5826,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "YYS-01-S0030",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "YYS-E05-T01",
@@ -5839,7 +5839,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "YYS-01-S0041",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "YYS-E06-T01",
@@ -5852,7 +5852,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "YYS-01-S0045",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "YYS-E07-T01",
@@ -5865,7 +5865,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "YYS-01-S0079",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "time_expressions": [
@@ -6192,10 +6192,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0002",
@@ -6203,10 +6203,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0003",
@@ -6214,10 +6214,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0004",
@@ -6225,10 +6225,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0005",
@@ -6236,10 +6236,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0006",
@@ -6247,10 +6247,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0007",
@@ -6258,10 +6258,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0008",
@@ -6269,10 +6269,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0009",
@@ -6280,10 +6280,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0010",
@@ -6291,10 +6291,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0011",
@@ -6302,10 +6302,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0012",
@@ -6313,10 +6313,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0013",
@@ -6324,10 +6324,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0014",
@@ -6335,10 +6335,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0015",
@@ -6346,10 +6346,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0016",
@@ -6357,10 +6357,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0017",
@@ -6368,10 +6368,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0018",
@@ -6379,10 +6379,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0019",
@@ -6390,10 +6390,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0020",
@@ -6401,10 +6401,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0021",
@@ -6412,10 +6412,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0022",
@@ -6423,10 +6423,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0023",
@@ -6434,10 +6434,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0024",
@@ -6445,10 +6445,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E02",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0025",
@@ -6456,10 +6456,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E02",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0026",
@@ -6467,10 +6467,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0027",
@@ -6478,10 +6478,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0028",
@@ -6489,10 +6489,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0029",
@@ -6500,10 +6500,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0030",
@@ -6511,10 +6511,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E03",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0031",
@@ -6522,10 +6522,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E03",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0032",
@@ -6533,10 +6533,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E03",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0033",
@@ -6544,10 +6544,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E03",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0034",
@@ -6555,10 +6555,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0035",
@@ -6566,10 +6566,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0036",
@@ -6577,10 +6577,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0037",
@@ -6588,10 +6588,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0038",
@@ -6599,10 +6599,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0039",
@@ -6610,10 +6610,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0040",
@@ -6621,10 +6621,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0041",
@@ -6632,10 +6632,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0042",
@@ -6643,10 +6643,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0043",
@@ -6654,10 +6654,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0044",
@@ -6665,10 +6665,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0045",
@@ -6676,10 +6676,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0046",
@@ -6687,10 +6687,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0047",
@@ -6698,10 +6698,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0048",
@@ -6709,10 +6709,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E04",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0049",
@@ -6720,10 +6720,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0050",
@@ -6731,10 +6731,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0051",
@@ -6742,10 +6742,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0052",
@@ -6753,10 +6753,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0053",
@@ -6764,10 +6764,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0054",
@@ -6775,10 +6775,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0055",
@@ -6786,10 +6786,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0056",
@@ -6797,10 +6797,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0057",
@@ -6808,10 +6808,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0058",
@@ -6819,10 +6819,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0059",
@@ -6830,10 +6830,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0060",
@@ -6841,10 +6841,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0061",
@@ -6852,10 +6852,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0062",
@@ -6863,10 +6863,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0063",
@@ -6874,10 +6874,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0064",
@@ -6885,10 +6885,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0065",
@@ -6896,10 +6896,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0066",
@@ -6907,10 +6907,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0067",
@@ -6918,10 +6918,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0068",
@@ -6929,10 +6929,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0069",
@@ -6940,10 +6940,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0070",
@@ -6951,10 +6951,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0071",
@@ -6962,10 +6962,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0072",
@@ -6973,10 +6973,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0073",
@@ -6984,10 +6984,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0074",
@@ -6995,10 +6995,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0075",
@@ -7006,10 +7006,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0076",
@@ -7017,10 +7017,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0077",
@@ -7028,10 +7028,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0078",
@@ -7039,10 +7039,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0079",
@@ -7050,10 +7050,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0080",
@@ -7061,10 +7061,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0081",
@@ -7072,10 +7072,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0082",
@@ -7083,10 +7083,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0083",
@@ -7094,10 +7094,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0084",
@@ -7105,10 +7105,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0085",
@@ -7116,10 +7116,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0086",
@@ -7127,10 +7127,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0087",
@@ -7138,10 +7138,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0088",
@@ -7149,10 +7149,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0089",
@@ -7160,10 +7160,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0090",
@@ -7171,10 +7171,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0091",
@@ -7182,10 +7182,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0092",
@@ -7193,10 +7193,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0093",
@@ -7204,10 +7204,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0094",
@@ -7215,10 +7215,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E06",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0095",
@@ -7226,10 +7226,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0096",
@@ -7237,10 +7237,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0097",
@@ -7248,10 +7248,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0098",
@@ -7259,10 +7259,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0099",
@@ -7270,10 +7270,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0100",
@@ -7281,10 +7281,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0101",
@@ -7292,10 +7292,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0102",
@@ -7303,10 +7303,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0103",
@@ -7314,10 +7314,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0104",
@@ -7325,10 +7325,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0105",
@@ -7336,10 +7336,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0106",
@@ -7347,10 +7347,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E07",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0107",
@@ -7358,10 +7358,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E01-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0108",
@@ -7369,10 +7369,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E01-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0109",
@@ -7380,10 +7380,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E01-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0110",
@@ -7391,10 +7391,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E01-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0111",
@@ -7402,10 +7402,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E01-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0112",
@@ -7413,10 +7413,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E01-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0113",
@@ -7424,10 +7424,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E02-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0114",
@@ -7435,10 +7435,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E02-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0115",
@@ -7446,10 +7446,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E02-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0116",
@@ -7457,10 +7457,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E02-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0117",
@@ -7468,10 +7468,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E03-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0118",
@@ -7479,10 +7479,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E03-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0119",
@@ -7490,10 +7490,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E03-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0120",
@@ -7501,10 +7501,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E03-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0121",
@@ -7512,10 +7512,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E04-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0122",
@@ -7523,10 +7523,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E04-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0123",
@@ -7534,10 +7534,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E04-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0124",
@@ -7545,10 +7545,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E04-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0125",
@@ -7556,10 +7556,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E04-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0126",
@@ -7567,10 +7567,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E04-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0127",
@@ -7578,10 +7578,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E05-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0128",
@@ -7589,10 +7589,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E05-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0129",
@@ -7600,10 +7600,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E05-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0130",
@@ -7611,10 +7611,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E05-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0131",
@@ -7622,10 +7622,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E05-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0132",
@@ -7633,10 +7633,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E05-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0133",
@@ -7644,10 +7644,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E06-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0134",
@@ -7655,10 +7655,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E06-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0135",
@@ -7666,10 +7666,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E06-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0136",
@@ -7677,10 +7677,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E06-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0137",
@@ -7688,10 +7688,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E06-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0138",
@@ -7699,10 +7699,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E06-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0139",
@@ -7710,10 +7710,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E06-P05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0140",
@@ -7721,10 +7721,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E07-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0141",
@@ -7732,10 +7732,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E07-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0142",
@@ -7743,10 +7743,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E07-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0143",
@@ -7754,10 +7754,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E07-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0144",
@@ -7765,10 +7765,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E07-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0145",
@@ -7776,10 +7776,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E07-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0146",
@@ -7787,10 +7787,10 @@
       "target_type": "STAGE",
       "target_id": "YYS-E07-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0147",
@@ -7798,10 +7798,10 @@
       "target_type": "DOCUMENT",
       "target_id": "YYS-01",
       "function": "DOCUMENT_NOTE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0148",
@@ -7809,10 +7809,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E01",
       "function": "DOCUMENT_NOTE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0149",
@@ -7820,10 +7820,10 @@
       "target_type": "EVENT",
       "target_id": "YYS-E05",
       "function": "DOCUMENT_NOTE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "YYS-01-AT0150",
@@ -7831,10 +7831,10 @@
       "target_type": "DOCUMENT",
       "target_id": "YYS-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "document_annotations": [
@@ -8071,5 +8071,5 @@
     "coverage_rate": "1.0000",
     "audit_status": "PASS"
   },
-  "status_note": "本数据依据v3.2规范生成；多数记录仍为MODEL_CANDIDATE，其中0个原文指称不确定实体已由研究者核验为CONFIRMED，但其authority_status继续保留不确定性。"
+  "status_note": "本文件属于六份WORKFLOW_DEMO。研究者已确认事件、阶段、文档内顺序、事件时间和原文挂接结构；它用于固定工作流和展示，不作为正式内部测试金标准。细粒度实体提及和全文时间表达继续保留其原有核验状态。"
 }

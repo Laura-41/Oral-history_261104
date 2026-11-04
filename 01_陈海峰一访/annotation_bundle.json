@@ -8,9 +8,9 @@
     "version": "二校后 阅读版",
     "source_file": "0920_01/语料/C 陈海峰_4+8+23/1访/01.陈海峰（一访）（二校后 阅读版）.docx",
     "total_characters": 7700,
-    "data_role": "DEVELOPMENT",
+    "data_role": "WORKFLOW_DEMO",
     "include_in_study": "YES",
-    "review_status": "MODEL_CANDIDATE"
+    "review_status": "CONFIRMED"
   },
   "source_segments": [
     {
@@ -1622,7 +1622,7 @@
       "confidence": "HIGH",
       "boundary_note": "从离开家乡赴上海开始，以进入印书馆并掌握排字工作为阶段结果",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "CHF-V1-E02",
@@ -1635,7 +1635,7 @@
       "confidence": "MEDIUM",
       "boundary_note": "原文仅作简要回顾，作为可独立查询的亲历战争事件保留",
       "boundary_confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "CHF-V1-E03",
@@ -1648,7 +1648,7 @@
       "confidence": "HIGH",
       "boundary_note": "从接触地下党学生的印刷材料开始，以形成认识并持续支援地下党活动为阶段结果",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "CHF-V1-E04",
@@ -1661,7 +1661,7 @@
       "confidence": "HIGH",
       "boundary_note": "以师弟受虐死亡和加班剥削为起因，以工人集体离厂、罢工人员分散为结束",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "CHF-V1-E05",
@@ -1674,7 +1674,7 @@
       "confidence": "HIGH",
       "boundary_note": "从罢工人员分散、无钱租房开始，以重新找到印书馆工作和收入稳定为结束",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "CHF-V1-E06",
@@ -1687,7 +1687,7 @@
       "confidence": "HIGH",
       "boundary_note": "以日军进攻上海、全家开始逃难为起点，以依靠典当所得返回家乡为终点",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_id": "CHF-V1-E07",
@@ -1700,7 +1700,7 @@
       "confidence": "HIGH",
       "boundary_note": "从哥哥接受任务返乡发展组织开始，以组织发展、宣传运作并恢复地下党联系为阶段结果",
       "boundary_confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "processes": [
@@ -2170,7 +2170,7 @@
       "stage_summary": "接触并印刷进步材料",
       "process_text": "印刷",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E03-P02",
@@ -2179,7 +2179,7 @@
       "stage_summary": "阅读进步书刊并参加夜校",
       "process_text": "阅读和学习",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E03-P03",
@@ -2188,7 +2188,7 @@
       "stage_summary": "从收入中资助哥哥的地下党活动",
       "process_text": "资助",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E03-P04",
@@ -2197,7 +2197,7 @@
       "stage_summary": "夜间秘密排印宣传品",
       "process_text": "秘密印刷",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E04-P01",
@@ -2206,7 +2206,7 @@
       "stage_summary": "师弟遭打致死并引起工人不满",
       "process_text": "遭打和死亡",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E04-P02",
@@ -2215,7 +2215,7 @@
       "stage_summary": "工人向老板抗议但遭压制",
       "process_text": "抗议",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E04-P03",
@@ -2224,7 +2224,7 @@
       "stage_summary": "陈海峰暗中动员工人罢工",
       "process_text": "动员",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E04-P04",
@@ -2233,7 +2233,7 @@
       "stage_summary": "罢工人员集体离厂并分散",
       "process_text": "离厂",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E05-P01",
@@ -2242,7 +2242,7 @@
       "stage_summary": "罢工后失去工作和住处",
       "process_text": "失业",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E05-P02",
@@ -2251,7 +2251,7 @@
       "stage_summary": "依靠廉价食物度过困难时期",
       "process_text": "维持生活",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E05-P03",
@@ -2260,7 +2260,7 @@
       "stage_summary": "在师兄和哥哥帮助下重新就业",
       "process_text": "重新就业",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E06-P01",
@@ -2269,7 +2269,7 @@
       "stage_summary": "日军进攻上海后全家开始逃难",
       "process_text": "逃离上海",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E06-P02",
@@ -2278,7 +2278,7 @@
       "stage_summary": "途中遭轰炸扫射并丢弃行李",
       "process_text": "躲避轰炸",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E06-P03",
@@ -2287,7 +2287,7 @@
       "stage_summary": "依靠典当金戒指所得返回家乡",
       "process_text": "返回江阴",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E07-P01",
@@ -2296,7 +2296,7 @@
       "stage_summary": "哥哥接受任务并秘密返乡",
       "process_text": "接受任务返乡",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E07-P02",
@@ -2305,7 +2305,7 @@
       "stage_summary": "联络亲友青年并成立救亡会",
       "process_text": "组织成立",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E07-P03",
@@ -2314,7 +2314,7 @@
       "stage_summary": "发展五十余名成员并确定宣传任务",
       "process_text": "发展成员",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E07-P04",
@@ -2323,7 +2323,7 @@
       "stage_summary": "收听广播编印小报并制作黑板报",
       "process_text": "开展宣传",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "stage_id": "CHF-V1-E07-P05",
@@ -2332,7 +2332,7 @@
       "stage_summary": "通过既有关系联系上海地下党",
       "process_text": "取得联系",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "stage_next": [
@@ -2342,7 +2342,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E03-P02",
@@ -2350,7 +2350,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E03-P03",
@@ -2358,7 +2358,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E04-P01",
@@ -2366,7 +2366,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E04-P02",
@@ -2374,7 +2374,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E04-P03",
@@ -2382,7 +2382,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E05-P01",
@@ -2390,7 +2390,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E05-P02",
@@ -2398,7 +2398,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E06-P01",
@@ -2406,7 +2406,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E06-P02",
@@ -2414,7 +2414,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E07-P01",
@@ -2422,7 +2422,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E07-P02",
@@ -2430,7 +2430,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E07-P03",
@@ -2438,7 +2438,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_stage_id": "CHF-V1-E07-P04",
@@ -2446,7 +2446,7 @@
       "logic": "SEQUENCE",
       "evidence_segment_id": "",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "event_next": [
@@ -2456,7 +2456,7 @@
       "chain_id": "CHF-V1-01-MAIN",
       "basis": "contextual_inference",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_event_id": "CHF-V1-E02",
@@ -2464,7 +2464,7 @@
       "chain_id": "CHF-V1-01-MAIN",
       "basis": "contextual_inference",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_event_id": "CHF-V1-E03",
@@ -2472,7 +2472,7 @@
       "chain_id": "CHF-V1-01-MAIN",
       "basis": "explicit_time",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_event_id": "CHF-V1-E04",
@@ -2480,7 +2480,7 @@
       "chain_id": "CHF-V1-01-MAIN",
       "basis": "explicit_time",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_event_id": "CHF-V1-E05",
@@ -2488,7 +2488,7 @@
       "chain_id": "CHF-V1-01-MAIN",
       "basis": "explicit_time",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "source_event_id": "CHF-V1-E06",
@@ -2496,7 +2496,7 @@
       "chain_id": "CHF-V1-01-MAIN",
       "basis": "explicit_time",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "entities": [
@@ -7754,7 +7754,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "CHF-V1-01-S0015",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "CHF-V1-E02-T01",
@@ -7767,7 +7767,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "CHF-V1-01-S0056",
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "CHF-V1-E03-T01",
@@ -7780,7 +7780,7 @@
       "source_status": "MIXED",
       "evidence_segment_id": "CHF-V1-01-S0024",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "CHF-V1-E04-T01",
@@ -7793,7 +7793,7 @@
       "source_status": "EDITORIAL_PROFILE",
       "evidence_segment_id": "CHF-V1-01-S0042",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "CHF-V1-E05-T01",
@@ -7806,7 +7806,7 @@
       "source_status": "MIXED",
       "evidence_segment_id": "CHF-V1-01-S0050",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "CHF-V1-E06-T01",
@@ -7819,7 +7819,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "CHF-V1-01-S0058",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "event_time_id": "CHF-V1-E07-T01",
@@ -7832,7 +7832,7 @@
       "source_status": "ORAL_TESTIMONY",
       "evidence_segment_id": "CHF-V1-01-S0063",
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "time_expressions": [
@@ -8339,10 +8339,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0002",
@@ -8350,10 +8350,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0003",
@@ -8361,10 +8361,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0004",
@@ -8372,10 +8372,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0005",
@@ -8383,10 +8383,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0006",
@@ -8394,10 +8394,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E01",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0007",
@@ -8405,10 +8405,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E01",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0008",
@@ -8416,10 +8416,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "MEDIUM",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0009",
@@ -8427,10 +8427,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0010",
@@ -8438,10 +8438,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0011",
@@ -8449,10 +8449,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0012",
@@ -8460,10 +8460,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0013",
@@ -8471,10 +8471,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0014",
@@ -8482,10 +8482,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0015",
@@ -8493,10 +8493,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0016",
@@ -8504,10 +8504,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0017",
@@ -8515,10 +8515,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0018",
@@ -8526,10 +8526,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0019",
@@ -8537,10 +8537,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0020",
@@ -8548,10 +8548,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0021",
@@ -8559,10 +8559,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0022",
@@ -8570,10 +8570,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0023",
@@ -8581,10 +8581,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0024",
@@ -8592,10 +8592,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0025",
@@ -8603,10 +8603,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0026",
@@ -8614,10 +8614,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0027",
@@ -8625,10 +8625,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0028",
@@ -8636,10 +8636,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0029",
@@ -8647,10 +8647,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0030",
@@ -8658,10 +8658,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0031",
@@ -8669,10 +8669,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0032",
@@ -8680,10 +8680,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0033",
@@ -8691,10 +8691,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0034",
@@ -8702,10 +8702,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0035",
@@ -8713,10 +8713,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0036",
@@ -8724,10 +8724,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0037",
@@ -8735,10 +8735,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0038",
@@ -8746,10 +8746,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0039",
@@ -8757,10 +8757,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0040",
@@ -8768,10 +8768,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E06",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0041",
@@ -8779,10 +8779,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E06",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0042",
@@ -8790,10 +8790,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E06",
       "function": "INTERVIEWER_PROMPT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0043",
@@ -8801,10 +8801,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0044",
@@ -8812,10 +8812,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0045",
@@ -8823,10 +8823,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0046",
@@ -8834,10 +8834,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0047",
@@ -8845,10 +8845,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0048",
@@ -8856,10 +8856,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0049",
@@ -8867,10 +8867,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0050",
@@ -8878,10 +8878,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0051",
@@ -8889,10 +8889,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0052",
@@ -8900,10 +8900,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0053",
@@ -8911,10 +8911,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0054",
@@ -8922,10 +8922,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "BACKGROUND",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0055",
@@ -8933,10 +8933,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E03-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0056",
@@ -8944,10 +8944,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E03-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0057",
@@ -8955,10 +8955,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E03-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0058",
@@ -8966,10 +8966,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E03-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0059",
@@ -8977,10 +8977,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E03-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0060",
@@ -8988,10 +8988,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E03-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0061",
@@ -8999,10 +8999,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E03-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0062",
@@ -9010,10 +9010,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E03-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0063",
@@ -9021,10 +9021,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E03-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0064",
@@ -9032,10 +9032,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E04-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0065",
@@ -9043,10 +9043,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E04-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0066",
@@ -9054,10 +9054,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E04-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0067",
@@ -9065,10 +9065,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E04-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0068",
@@ -9076,10 +9076,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E04-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0069",
@@ -9087,10 +9087,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E04-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0070",
@@ -9098,10 +9098,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E05-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0071",
@@ -9109,10 +9109,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E05-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0072",
@@ -9120,10 +9120,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E05-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0073",
@@ -9131,10 +9131,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E06-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0074",
@@ -9142,10 +9142,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E06-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0075",
@@ -9153,10 +9153,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E06-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0076",
@@ -9164,10 +9164,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E06-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0077",
@@ -9175,10 +9175,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E06-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0078",
@@ -9186,10 +9186,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E06-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0079",
@@ -9197,10 +9197,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E07-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0080",
@@ -9208,10 +9208,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E07-P01",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0081",
@@ -9219,10 +9219,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E07-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0082",
@@ -9230,10 +9230,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E07-P02",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0083",
@@ -9241,10 +9241,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E07-P03",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0084",
@@ -9252,10 +9252,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E07-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0085",
@@ -9263,10 +9263,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E07-P04",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0086",
@@ -9274,10 +9274,10 @@
       "target_type": "STAGE",
       "target_id": "CHF-V1-E07-P05",
       "function": "EVIDENCE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0087",
@@ -9285,10 +9285,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_NOTE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0088",
@@ -9296,10 +9296,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E03",
       "function": "DOCUMENT_NOTE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0089",
@@ -9307,10 +9307,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "DOCUMENT_NOTE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0090",
@@ -9318,10 +9318,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "DOCUMENT_NOTE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0091",
@@ -9329,10 +9329,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "DOCUMENT_NOTE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0092",
@@ -9340,10 +9340,10 @@
       "target_type": "EVENT",
       "target_id": "CHF-V1-E07",
       "function": "DOCUMENT_NOTE",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0093",
@@ -9351,10 +9351,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "COMMENT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0094",
@@ -9362,10 +9362,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "COMMENT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0095",
@@ -9373,10 +9373,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "COMMENT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0096",
@@ -9384,10 +9384,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "COMMENT",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0097",
@@ -9395,10 +9395,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0098",
@@ -9406,10 +9406,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0099",
@@ -9417,10 +9417,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0100",
@@ -9428,10 +9428,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0101",
@@ -9439,10 +9439,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0102",
@@ -9450,10 +9450,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0103",
@@ -9461,10 +9461,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0104",
@@ -9472,10 +9472,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0105",
@@ -9483,10 +9483,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0106",
@@ -9494,10 +9494,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0107",
@@ -9505,10 +9505,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0108",
@@ -9516,10 +9516,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0109",
@@ -9527,10 +9527,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0110",
@@ -9538,10 +9538,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0111",
@@ -9549,10 +9549,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0112",
@@ -9560,10 +9560,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0113",
@@ -9571,10 +9571,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0114",
@@ -9582,10 +9582,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0115",
@@ -9593,10 +9593,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0116",
@@ -9604,10 +9604,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0117",
@@ -9615,10 +9615,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0118",
@@ -9626,10 +9626,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0119",
@@ -9637,10 +9637,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0120",
@@ -9648,10 +9648,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0121",
@@ -9659,10 +9659,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0122",
@@ -9670,10 +9670,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0123",
@@ -9681,10 +9681,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0124",
@@ -9692,10 +9692,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0125",
@@ -9703,10 +9703,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0126",
@@ -9714,10 +9714,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0127",
@@ -9725,10 +9725,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0128",
@@ -9736,10 +9736,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     },
     {
       "attachment_id": "CHF-V1-01-AT0129",
@@ -9747,10 +9747,10 @@
       "target_type": "DOCUMENT",
       "target_id": "CHF-V1-01",
       "function": "DOCUMENT_ONLY",
-      "quote_start_offset": "",
-      "quote_end_offset": "",
+      "quote_start_offset": null,
+      "quote_end_offset": null,
       "confidence": "HIGH",
-      "review_status": "MODEL_CANDIDATE"
+      "review_status": "CONFIRMED"
     }
   ],
   "document_annotations": [
@@ -9910,5 +9910,5 @@
     "coverage_rate": "1.0000",
     "audit_status": "PASS"
   },
-  "status_note": "本数据依据v3.2规范生成；多数记录仍为MODEL_CANDIDATE，其中7个原文指称不确定实体已由研究者核验为CONFIRMED，但其authority_status继续保留不确定性。"
+  "status_note": "本文件属于六份WORKFLOW_DEMO。研究者已确认事件、阶段、文档内顺序、事件时间和原文挂接结构；它用于固定工作流和展示，不作为正式内部测试金标准。细粒度实体提及和全文时间表达继续保留其原有核验状态。"
 }

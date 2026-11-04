@@ -29,7 +29,7 @@ const tables = {
 };
 
 const enumerations = {
-  data_role: ["DEVELOPMENT", "INTERNAL_TEST", "BATCH_APPLICATION", "EXTERNAL_TEST", "UNASSIGNED"],
+  data_role: ["WORKFLOW_DEMO", "DEVELOPMENT", "INTERNAL_TEST", "BATCH_APPLICATION", "EXTERNAL_TEST", "UNASSIGNED"],
   include_in_study: ["YES", "NO", "TO_CONFIRM"],
   review_status: ["MODEL_CANDIDATE", "NEEDS_REVIEW", "CONFIRMED"],
   speaker_type: ["INTERVIEWEE", "INTERVIEWER", "EDITOR", "OTHER", "UNKNOWN"],

@@ -96,7 +96,7 @@ public final class EmbeddedNeo4jRunner {
             }
 
             StringBuilder report = new StringBuilder();
-            report.append("Neo4j oral-history development-corpus verification\n");
+            report.append("Neo4j oral-history workflow-demo verification\n");
             report.append("import_statements=").append(importStatements.size()).append('\n');
             report.append(query(db, "节点总数", "MATCH (n) RETURN count(n) AS nodes"));
             report.append(query(db, "关系总数", "MATCH ()-[r]->() RETURN count(r) AS relationships"));
@@ -108,6 +108,9 @@ public final class EmbeddedNeo4jRunner {
             report.append(query(db, "人工已核验但现实指称仍不确定的实体", "MATCH (e:Entity {review_status:'CONFIRMED'}) WHERE e.authority_status IN ['TRANSCRIPTION_UNCERTAIN','UNRESOLVED'] RETURN e.canonical_name AS entity, e.review_status AS review_status, e.authority_status AS authority_status ORDER BY entity"));
             report.append(query(db, "全文时间表达", "MATCH (d:InterviewDocument)-[:HAS_SEGMENT]->(s:SourceSegment)-[:HAS_TIME_EXPRESSION]->(t:TimeExpression) RETURN d.interviewee AS person, s.source_part AS source_part, count(t) AS expressions ORDER BY person, source_part"));
             report.append(query(db, "脚注时间表达", "MATCH (d:InterviewDocument)-[:HAS_SEGMENT]->(s:SourceSegment)-[:HAS_TIME_EXPRESSION]->(t:TimeExpression) WHERE s.source_part='footnotes' RETURN d.interviewee AS person, t.raw_text AS raw_text, t.normalized_start AS normalized_start ORDER BY person, normalized_start"));
+            report.append(query(db, "人物生平经历", "MATCH (person:BiographicalSubject)-[:HAS_LIFE_EPISODE]->(episode:LifeEpisode) OPTIONAL MATCH (episode)-[:SUPPORTED_BY_EVENT]->(event:EventNode)<-[:HAS_EVENT]-(d:InterviewDocument) RETURN person.canonical_name AS person, episode.life_order AS life_order, episode.normalized_start AS start, episode.episode_name AS episode, collect(DISTINCT d.title) AS sources ORDER BY person, life_order"));
+            report.append(query(db, "人物生平链完整性", "MATCH (person:BiographicalSubject)-[:HAS_LIFE_EPISODE]->(episode:LifeEpisode) OPTIONAL MATCH (episode)-[r:BIOGRAPHICAL_NEXT]->() RETURN person.canonical_name AS person, count(DISTINCT episode) AS episodes, count(DISTINCT r) AS next_relations ORDER BY person"));
+            report.append(query(db, "叙述背景与人物经历分离", "MATCH (person:BiographicalSubject)-[:NARRATED_CONTEXT]->(event:EventNode)<-[:HAS_EVENT]-(d:InterviewDocument) RETURN person.canonical_name AS person, d.title AS document, event.event_name AS narrated_context ORDER BY person, event.historical_order"));
             Files.writeString(REPORT, report.toString(), StandardCharsets.UTF_8);
             System.out.print(report);
         } finally {

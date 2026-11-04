@@ -1,5 +1,5 @@
-﻿source_event_id,target_event_id,chain_id,basis,confidence,review_status
-CHF-V3-E01,CHF-V3-E02,CHF-V3-01-MAIN,explicit_time,MEDIUM,MODEL_CANDIDATE
-CHF-V3-E02,CHF-V3-E03,CHF-V3-01-MAIN,explicit_time,MEDIUM,MODEL_CANDIDATE
-CHF-V3-E03,CHF-V3-E04,CHF-V3-01-MAIN,explicit_time,MEDIUM,MODEL_CANDIDATE
-CHF-V3-E04,CHF-V3-E05,CHF-V3-01-MAIN,explicit_time,MEDIUM,MODEL_CANDIDATE
+source_event_id,target_event_id,chain_id,basis,confidence,review_status
+CHF-V3-E01,CHF-V3-E02,CHF-V3-01-MAIN,explicit_time,MEDIUM,CONFIRMED
+CHF-V3-E02,CHF-V3-E03,CHF-V3-01-MAIN,explicit_time,MEDIUM,CONFIRMED
+CHF-V3-E03,CHF-V3-E04,CHF-V3-01-MAIN,explicit_time,MEDIUM,CONFIRMED
+CHF-V3-E04,CHF-V3-E05,CHF-V3-01-MAIN,explicit_time,MEDIUM,CONFIRMED

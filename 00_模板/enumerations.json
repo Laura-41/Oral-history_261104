@@ -1,5 +1,6 @@
 {
   "data_role": [
+    "WORKFLOW_DEMO",
     "DEVELOPMENT",
     "INTERNAL_TEST",
     "BATCH_APPLICATION",

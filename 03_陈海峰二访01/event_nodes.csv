@@ -1,7 +1,7 @@
-﻿event_id,doc_id,event_name,narrative_order,historical_order,result_state,factuality,confidence,boundary_note,boundary_confidence,review_status
-CHF-V2-E01,CHF-V2-01,从江抗选调赴皖南新四军教导队学习,1,1,进入新四军教导队政治队接受训练,FACT,HIGH,从江抗选拔首名干部开始，以抵达皖南并进入政治队为阶段结果,HIGH,MODEL_CANDIDATE
-CHF-V2-E02,CHF-V2-01,由政治队转入公共卫生训练班,2,2,成为第二期公共卫生训练班学员,FACT,HIGH,从史沫特莱动员和按文化程度选人开始，以陈海峰同意并正式入班为结束,HIGH,MODEL_CANDIDATE
-CHF-V2-E03,CHF-V2-01,在严格淘汰制度下完成卫训班学习,3,3,六十六名学员中二十三人毕业并成为卫生骨干,FACT,HIGH,从六十六人开学和周考月考开始，以二十三人完成训练为阶段结果,HIGH,MODEL_CANDIDATE
-CHF-V2-E04,CHF-V2-01,通过病房实习掌握战地临床诊断,4,4,能够依靠体征识别常见病并实施基础护理,FACT,HIGH,从上午理论授课、下午进入病房开始，以掌握典型体征和实际护理为阶段结果,HIGH,MODEL_CANDIDATE
-CHF-V2-E05,CHF-V2-01,秘密取回遗体开展解剖教学并进行医德教育,5,5,完成解剖教学并形成尊重遗体贡献者的医德认识,FACT,HIGH,从白天侦察墓地、夜间取回遗体开始，以解剖、缝合和送还遗体为结束,HIGH,MODEL_CANDIDATE
-CHF-V2-E06,CHF-V2-01,完成基础训练并具备营级战场救护能力,6,6,毕业学员能够到营级单位独立承担战场急救和基础医疗任务,FACT,HIGH,从说明前方医疗人才缺乏和培养目标开始，以明确学员毕业后的岗位与能力要求为结束,HIGH,MODEL_CANDIDATE
+event_id,doc_id,event_name,narrative_order,historical_order,result_state,factuality,confidence,boundary_note,boundary_confidence,review_status
+CHF-V2-E01,CHF-V2-01,从江抗选调赴皖南新四军教导队学习,1,1,进入新四军教导队政治队接受训练,FACT,HIGH,从江抗选拔首名干部开始，以抵达皖南并进入政治队为阶段结果,HIGH,CONFIRMED
+CHF-V2-E02,CHF-V2-01,由政治队转入公共卫生训练班,2,2,成为第二期公共卫生训练班学员,FACT,HIGH,从史沫特莱动员和按文化程度选人开始，以陈海峰同意并正式入班为结束,HIGH,CONFIRMED
+CHF-V2-E03,CHF-V2-01,在严格淘汰制度下完成卫训班学习,3,3,六十六名学员中二十三人毕业并成为卫生骨干,FACT,HIGH,从六十六人开学和周考月考开始，以二十三人完成训练为阶段结果,HIGH,CONFIRMED
+CHF-V2-E04,CHF-V2-01,通过病房实习掌握战地临床诊断,4,4,能够依靠体征识别常见病并实施基础护理,FACT,HIGH,从上午理论授课、下午进入病房开始，以掌握典型体征和实际护理为阶段结果,HIGH,CONFIRMED
+CHF-V2-E05,CHF-V2-01,秘密取回遗体开展解剖教学并进行医德教育,5,5,完成解剖教学并形成尊重遗体贡献者的医德认识,FACT,HIGH,从白天侦察墓地、夜间取回遗体开始，以解剖、缝合和送还遗体为结束,HIGH,CONFIRMED
+CHF-V2-E06,CHF-V2-01,完成基础训练并具备营级战场救护能力,6,6,毕业学员能够到营级单位独立承担战场急救和基础医疗任务,FACT,HIGH,从说明前方医疗人才缺乏和培养目标开始，以明确学员毕业后的岗位与能力要求为结束,HIGH,CONFIRMED

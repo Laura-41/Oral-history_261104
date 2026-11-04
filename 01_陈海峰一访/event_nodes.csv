@@ -1,8 +1,8 @@
-﻿event_id,doc_id,event_name,narrative_order,historical_order,result_state,factuality,confidence,boundary_note,boundary_confidence,review_status
-CHF-V1-E01,CHF-V1-01,赴上海荣华印书馆当排字学徒,1,1,进入荣华印书馆成为排字学徒,FACT,HIGH,从离开家乡赴上海开始，以进入印书馆并掌握排字工作为阶段结果,HIGH,MODEL_CANDIDATE
-CHF-V1-E02,CHF-V1-01,一二八淞沪战争期间协助抬送伤员,6,2,亲历战争并参与伤员救助,FACT,MEDIUM,原文仅作简要回顾，作为可独立查询的亲历战争事件保留,MEDIUM,MODEL_CANDIDATE
-CHF-V1-E03,CHF-V1-01,在印书馆接触进步思想并支援地下党活动,2,3,形成初步革命认识，并以秘密印刷和收入支援地下党活动,FACT,HIGH,从接触地下党学生的印刷材料开始，以形成认识并持续支援地下党活动为阶段结果,HIGH,MODEL_CANDIDATE
-CHF-V1-E04,CHF-V1-01,组织荣华印书馆工人罢工并离厂,3,4,参与者集体离厂，印书馆任务无法按期完成,FACT,HIGH,以师弟受虐死亡和加班剥削为起因，以工人集体离厂、罢工人员分散为结束,HIGH,MODEL_CANDIDATE
-CHF-V1-E05,CHF-V1-01,罢工离厂后经历失业并重新就业,4,5,重新进入印书馆工作，工资逐步提高至十五元,FACT,HIGH,从罢工人员分散、无钱租房开始，以重新找到印书馆工作和收入稳定为结束,HIGH,MODEL_CANDIDATE
-CHF-V1-E06,CHF-V1-01,八一三事变后随家人逃难返回江阴,5,6,陈海峰及家人返回江阴家乡,FACT,HIGH,以日军进攻上海、全家开始逃难为起点，以依靠典当所得返回家乡为终点,HIGH,MODEL_CANDIDATE
-CHF-V1-E07,CHF-V1-01,组织篁村人民抗日救亡会并开展宣传,7,7,救亡会发展到五十余人，持续开展抗日宣传并与上海地下党取得联系,FACT,HIGH,从哥哥接受任务返乡发展组织开始，以组织发展、宣传运作并恢复地下党联系为阶段结果,HIGH,MODEL_CANDIDATE
+event_id,doc_id,event_name,narrative_order,historical_order,result_state,factuality,confidence,boundary_note,boundary_confidence,review_status
+CHF-V1-E01,CHF-V1-01,赴上海荣华印书馆当排字学徒,1,1,进入荣华印书馆成为排字学徒,FACT,HIGH,从离开家乡赴上海开始，以进入印书馆并掌握排字工作为阶段结果,HIGH,CONFIRMED
+CHF-V1-E02,CHF-V1-01,一二八淞沪战争期间协助抬送伤员,6,2,亲历战争并参与伤员救助,FACT,MEDIUM,原文仅作简要回顾，作为可独立查询的亲历战争事件保留,MEDIUM,CONFIRMED
+CHF-V1-E03,CHF-V1-01,在印书馆接触进步思想并支援地下党活动,2,3,形成初步革命认识，并以秘密印刷和收入支援地下党活动,FACT,HIGH,从接触地下党学生的印刷材料开始，以形成认识并持续支援地下党活动为阶段结果,HIGH,CONFIRMED
+CHF-V1-E04,CHF-V1-01,组织荣华印书馆工人罢工并离厂,3,4,参与者集体离厂，印书馆任务无法按期完成,FACT,HIGH,以师弟受虐死亡和加班剥削为起因，以工人集体离厂、罢工人员分散为结束,HIGH,CONFIRMED
+CHF-V1-E05,CHF-V1-01,罢工离厂后经历失业并重新就业,4,5,重新进入印书馆工作，工资逐步提高至十五元,FACT,HIGH,从罢工人员分散、无钱租房开始，以重新找到印书馆工作和收入稳定为结束,HIGH,CONFIRMED
+CHF-V1-E06,CHF-V1-01,八一三事变后随家人逃难返回江阴,5,6,陈海峰及家人返回江阴家乡,FACT,HIGH,以日军进攻上海、全家开始逃难为起点，以依靠典当所得返回家乡为终点,HIGH,CONFIRMED
+CHF-V1-E07,CHF-V1-01,组织篁村人民抗日救亡会并开展宣传,7,7,救亡会发展到五十余人，持续开展抗日宣传并与上海地下党取得联系,FACT,HIGH,从哥哥接受任务返乡发展组织开始，以组织发展、宣传运作并恢复地下党联系为阶段结果,HIGH,CONFIRMED

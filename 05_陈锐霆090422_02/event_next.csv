@@ -1,5 +1,5 @@
-﻿source_event_id,target_event_id,chain_id,basis,confidence,review_status
-CRT-02-E01,CRT-02-E02,CRT-02-MAIN,explicit_time,MEDIUM,MODEL_CANDIDATE
-CRT-02-E02,CRT-02-E03,CRT-02-MAIN,explicit_time,MEDIUM,MODEL_CANDIDATE
-CRT-02-E03,CRT-02-E04,CRT-02-MAIN,explicit_time,MEDIUM,MODEL_CANDIDATE
-CRT-02-E04,CRT-02-E05,CRT-02-MAIN,explicit_time,MEDIUM,MODEL_CANDIDATE
+source_event_id,target_event_id,chain_id,basis,confidence,review_status
+CRT-02-E01,CRT-02-E02,CRT-02-MAIN,explicit_time,MEDIUM,CONFIRMED
+CRT-02-E02,CRT-02-E03,CRT-02-MAIN,explicit_time,MEDIUM,CONFIRMED
+CRT-02-E03,CRT-02-E04,CRT-02-MAIN,explicit_time,MEDIUM,CONFIRMED
+CRT-02-E04,CRT-02-E05,CRT-02-MAIN,explicit_time,MEDIUM,CONFIRMED

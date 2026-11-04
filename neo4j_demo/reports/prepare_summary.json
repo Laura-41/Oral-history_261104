@@ -16,5 +16,11 @@
   "event_times": 40,
   "time_expressions": 159,
   "document_annotations": 137,
-  "coverage_audit": 6
+  "coverage_audit": 6,
+  "person_subjects": 3,
+  "document_persons": 6,
+  "life_episodes": 35,
+  "life_episode_sources": 35,
+  "life_episode_next": 32,
+  "narrated_contexts": 5
 }

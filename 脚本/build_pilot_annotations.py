@@ -544,7 +544,7 @@ def build_document(doc_id: str, cfg: dict) -> None:
     document_rows = [{
         "doc_id": doc_id, "title": cfg["title"], "interviewee": cfg["interviewee"],
         "interview_date": cfg["interview_date"], "visit_no": cfg["visit_no"], "version": cfg["version"],
-        "source_file": cfg["source_file"], "total_characters": total_chars, "data_role": "DEVELOPMENT",
+        "source_file": cfg["source_file"], "total_characters": total_chars, "data_role": "WORKFLOW_DEMO",
         "include_in_study": "YES", "review_status": "MODEL_CANDIDATE"
     }]
     coverage_rows = [{

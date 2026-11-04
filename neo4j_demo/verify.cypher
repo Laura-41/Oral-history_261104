@@ -73,3 +73,40 @@ RETURN d.interviewee AS 人物, s.verbatim_text AS 脚注原文,
        collect(DISTINCT event.event_name) AS 挂接事件
 ORDER BY 人物;
 
+// 10. 以人物为中心查看按真实时间整理的生平经历表
+MATCH (person:BiographicalSubject {canonical_name:'陈海峰'})-[:HAS_LIFE_EPISODE]->(episode:LifeEpisode)
+OPTIONAL MATCH (episode)-[:SUPPORTED_BY_EVENT]->(event:EventNode)<-[:HAS_EVENT]-(d:InterviewDocument)
+RETURN episode.life_order AS 生平顺序,
+       episode.normalized_start AS 起始时间,
+       episode.normalized_end AS 结束时间,
+       episode.episode_name AS 人物经历,
+       episode.episode_scope AS 经历性质,
+       collect(DISTINCT d.title) AS 来源访谈,
+       collect(DISTINCT event.event_id) AS 来源事件
+ORDER BY 生平顺序;
+
+// 11. 以人物为中心显示可连成一条线的图形；原文档NEXT不受影响
+MATCH (person:BiographicalSubject {canonical_name:'陈海峰'})
+OPTIONAL MATCH p=(person)-[:HAS_LIFE_EPISODE]->(episode:LifeEpisode)
+OPTIONAL MATCH q=(episode)-[:BIOGRAPHICAL_NEXT]->(:LifeEpisode)
+OPTIONAL MATCH r=(episode)-[:SUPPORTED_BY_EVENT]->(event:EventNode)<-[:HAS_EVENT]-(d:InterviewDocument)
+RETURN person, p, q, r, d;
+
+// 12. 从人物经历返回各次访谈中的事件和原文证据
+MATCH (person:BiographicalSubject {canonical_name:'陈海峰'})-[:HAS_LIFE_EPISODE]->(episode:LifeEpisode)
+MATCH (episode)-[:SUPPORTED_BY_EVENT]->(event:EventNode)<-[:HAS_EVENT]-(d:InterviewDocument)
+OPTIONAL MATCH (segment:SourceSegment)-[:HAS_ATTACHMENT]->(:SourceAttachment)-[:ATTACHES_TO]->(event)
+RETURN episode.life_order AS 生平顺序,
+       episode.episode_name AS 人物经历,
+       d.title AS 来源访谈,
+       event.event_name AS 来源事件,
+       collect(DISTINCT segment.verbatim_text) AS 原文证据
+ORDER BY 生平顺序;
+
+// 13. 查询某人物讲述、但当前不作为本人经历的历史背景
+MATCH (person:BiographicalSubject {canonical_name:'陈海峰'})-[:NARRATED_CONTEXT]->(event:EventNode)
+MATCH (d:InterviewDocument)-[:HAS_EVENT]->(event)
+RETURN person.canonical_name AS 人物, d.title AS 来源访谈,
+       event.event_name AS 叙述背景, event.historical_order AS 文档内顺序
+ORDER BY 来源访谈, 文档内顺序;
+

@@ -7,6 +7,8 @@ import csv
 import json
 from pathlib import Path
 
+from person_biography_config import SUBJECTS
+
 
 ROOT = Path(__file__).resolve().parents[2]
 CURRENT = ROOT / "现行标注"
@@ -109,6 +111,109 @@ def main() -> None:
             writer.writeheader()
             writer.writerows(merged.values())
         summary[table] = len(merged)
+
+    with (OUTPUT / "event_nodes.csv").open(encoding="utf-8-sig", newline="") as handle:
+        event_nodes = {row["event_id"]: row for row in csv.DictReader(handle)}
+    with (OUTPUT / "event_times.csv").open(encoding="utf-8-sig", newline="") as handle:
+        event_times = {row["event_id"]: row for row in csv.DictReader(handle)}
+
+    person_subjects: list[dict[str, str]] = []
+    document_persons: list[dict[str, str]] = []
+    life_episodes: list[dict[str, str]] = []
+    life_episode_sources: list[dict[str, str]] = []
+    life_episode_next: list[dict[str, str]] = []
+    narrated_contexts: list[dict[str, str]] = []
+
+    for person_id, subject in SUBJECTS.items():
+        person_subjects.append({
+            "person_entity_id": person_id,
+            "person_name": subject["person_name"],
+            "biography_status": "WORKFLOW_DEMO",
+            "review_status": "CONFIRMED",
+        })
+        for doc_id in subject["documents"]:
+            document_persons.append({
+                "doc_id": doc_id,
+                "person_entity_id": person_id,
+                "relation_type": "INTERVIEW_OF",
+                "review_status": "CONFIRMED",
+            })
+
+        episode_rows: list[dict[str, str]] = []
+        for life_order, (episode_id, event_id, episode_scope) in enumerate(subject["episodes"], start=1):
+            if event_id not in event_nodes or event_id not in event_times:
+                raise ValueError(f"Biography config references unknown event: {event_id}")
+            event = event_nodes[event_id]
+            event_time = event_times[event_id]
+            episode = {
+                "episode_id": episode_id,
+                "person_entity_id": person_id,
+                "episode_name": event["event_name"],
+                "life_order": str(life_order),
+                "normalized_start": event_time["normalized_start"],
+                "normalized_end": event_time["normalized_end"],
+                "precision": event_time["precision"],
+                "certainty": event_time["certainty"],
+                "episode_scope": episode_scope,
+                "confidence": event_time["confidence"],
+                "review_status": "CONFIRMED",
+            }
+            episode_rows.append(episode)
+            life_episodes.append(episode)
+            life_episode_sources.append({
+                "episode_id": episode_id,
+                "event_id": event_id,
+                "source_role": "PRIMARY_EVIDENCE",
+                "review_status": "CONFIRMED",
+            })
+
+        for current, following in zip(episode_rows, episode_rows[1:]):
+            current_end = current["normalized_end"]
+            next_start = following["normalized_start"]
+            overlap = "YES" if current_end and next_start and current_end >= next_start else "NO"
+            life_episode_next.append({
+                "source_episode_id": current["episode_id"],
+                "target_episode_id": following["episode_id"],
+                "person_entity_id": person_id,
+                "basis": "HISTORICAL_TIME_MANUAL_REVIEW",
+                "overlap_possible": overlap,
+                "confidence": "HIGH",
+                "review_status": "CONFIRMED",
+            })
+
+        for context_order, event_id in enumerate(subject["narrated_context"], start=1):
+            if event_id not in event_nodes:
+                raise ValueError(f"Biography config references unknown context event: {event_id}")
+            narrated_contexts.append({
+                "person_entity_id": person_id,
+                "event_id": event_id,
+                "context_order": str(context_order),
+                "relation_type": "NARRATED_CONTEXT",
+                "review_status": "CONFIRMED",
+            })
+
+    generated = {
+        "person_subjects": person_subjects,
+        "document_persons": document_persons,
+        "life_episodes": life_episodes,
+        "life_episode_sources": life_episode_sources,
+        "life_episode_next": life_episode_next,
+        "narrated_contexts": narrated_contexts,
+    }
+    generated_fields = {
+        "person_subjects": ["person_entity_id", "person_name", "biography_status", "review_status"],
+        "document_persons": ["doc_id", "person_entity_id", "relation_type", "review_status"],
+        "life_episodes": ["episode_id", "person_entity_id", "episode_name", "life_order", "normalized_start", "normalized_end", "precision", "certainty", "episode_scope", "confidence", "review_status"],
+        "life_episode_sources": ["episode_id", "event_id", "source_role", "review_status"],
+        "life_episode_next": ["source_episode_id", "target_episode_id", "person_entity_id", "basis", "overlap_possible", "confidence", "review_status"],
+        "narrated_contexts": ["person_entity_id", "event_id", "context_order", "relation_type", "review_status"],
+    }
+    for table, rows in generated.items():
+        with (OUTPUT / f"{table}.csv").open("w", encoding="utf-8", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=generated_fields[table])
+            writer.writeheader()
+            writer.writerows(rows)
+        summary[table] = len(rows)
 
     REPORT.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False, indent=2))

@@ -1,4 +1,4 @@
-// 口述史两份试标：可重复执行的 Neo4j 导入脚本。
+// 口述史六份工作流Demo：可重复执行的 Neo4j 导入脚本。
 // 仅用于本目录下的独立 demo 数据库。
 
 MATCH (n) DETACH DELETE n;
@@ -17,12 +17,13 @@ CREATE CONSTRAINT time_expression_id IF NOT EXISTS FOR (n:TimeExpression) REQUIR
 CREATE CONSTRAINT mention_id IF NOT EXISTS FOR (n:EntityMention) REQUIRE n.mention_id IS UNIQUE;
 CREATE CONSTRAINT alias_id IF NOT EXISTS FOR (n:EntityAlias) REQUIRE n.alias_id IS UNIQUE;
 CREATE CONSTRAINT annotation_id IF NOT EXISTS FOR (n:DocumentAnnotation) REQUIRE n.annotation_id IS UNIQUE;
+CREATE CONSTRAINT life_episode_id IF NOT EXISTS FOR (n:LifeEpisode) REQUIRE n.episode_id IS UNIQUE;
 
-MERGE (g:GraphBuild {build_id: 'oral-history-pilot-v1'})
-SET g.name = '口述史两份试标图谱',
-    g.import_date = '2026-11-03',
-    g.schema_version = '3.2',
-    g.description = '陈海峰一访01与陈锐霆090422：事件—阶段—全文实体—全文时间表达—原文证据';
+MERGE (g:GraphBuild {build_id: 'oral-history-workflow-demo-v2'})
+SET g.name = '口述史六份工作流Demo图谱',
+    g.import_date = '2026-11-04',
+    g.schema_version = '3.2+biography-view',
+    g.description = '六份访谈：原文—事件—阶段—实体—时间表达，并叠加按人物真实时间排列的生平经历视图';
 
 UNWIND [
   {id:'MATERIAL_EVENT', name:'物质事件'},
@@ -42,7 +43,7 @@ SET d.title=row.title, d.interviewee=row.interviewee, d.interview_date=row.inter
     d.total_characters=toInteger(row.total_characters), d.data_role=row.data_role,
     d.include_in_study=row.include_in_study, d.review_status=row.review_status;
 
-MATCH (g:GraphBuild {build_id:'oral-history-pilot-v1'})
+MATCH (g:GraphBuild {build_id:'oral-history-workflow-demo-v2'})
 MATCH (d:InterviewDocument)
 MERGE (g)-[:CONTAINS_DOCUMENT]->(d);
 
@@ -52,6 +53,19 @@ SET e.canonical_name=row.canonical_name, e.entity_type=row.entity_type,
     e.entity_subtype=row.entity_subtype, e.description=row.description,
     e.authority_status=row.authority_status, e.confidence=row.confidence,
     e.review_status=row.review_status;
+
+// 人物核心与访谈文档的关系。一个人物可以对应多次访谈。
+LOAD CSV WITH HEADERS FROM 'file:///person_subjects.csv' AS row
+MATCH (person:Entity {entity_id:row.person_entity_id})
+SET person:BiographicalSubject,
+    person.biography_status=row.biography_status,
+    person.biography_review_status=row.review_status;
+
+LOAD CSV WITH HEADERS FROM 'file:///document_persons.csv' AS row
+MATCH (d:InterviewDocument {doc_id:row.doc_id})
+MATCH (person:Entity:BiographicalSubject {entity_id:row.person_entity_id})
+MERGE (d)-[r:INTERVIEW_OF]->(person)
+SET r.relation_type=row.relation_type, r.review_status=row.review_status;
 
 LOAD CSV WITH HEADERS FROM 'file:///source_segments.csv' AS row
 MERGE (s:SourceSegment {segment_id:row.segment_id})
@@ -159,6 +173,49 @@ WITH row WHERE row.evidence_segment_id <> ''
 MATCH (t:EventTime {event_time_id:row.event_time_id})
 MATCH (s:SourceSegment {segment_id:row.evidence_segment_id})
 MERGE (t)-[:SUPPORTED_BY]->(s);
+
+// 人物生平是叠加视图：不改动文档内 EventNode 与 NEXT。
+// 同一 LifeEpisode 将来可以由多份访谈中的多个 EventNode 共同支持。
+LOAD CSV WITH HEADERS FROM 'file:///life_episodes.csv' AS row
+MERGE (episode:LifeEpisode {episode_id:row.episode_id})
+SET episode.episode_name=row.episode_name,
+    episode.life_order=toInteger(row.life_order),
+    episode.normalized_start=row.normalized_start,
+    episode.normalized_end=row.normalized_end,
+    episode.precision=row.precision,
+    episode.certainty=row.certainty,
+    episode.episode_scope=row.episode_scope,
+    episode.confidence=row.confidence,
+    episode.review_status=row.review_status
+WITH episode, row
+MATCH (person:Entity:BiographicalSubject {entity_id:row.person_entity_id})
+MERGE (person)-[r:HAS_LIFE_EPISODE]->(episode)
+SET r.life_order=toInteger(row.life_order), r.review_status=row.review_status;
+
+LOAD CSV WITH HEADERS FROM 'file:///life_episode_sources.csv' AS row
+MATCH (episode:LifeEpisode {episode_id:row.episode_id})
+MATCH (event:EventNode {event_id:row.event_id})
+MERGE (episode)-[r:SUPPORTED_BY_EVENT]->(event)
+SET r.source_role=row.source_role, r.review_status=row.review_status;
+
+LOAD CSV WITH HEADERS FROM 'file:///life_episode_next.csv' AS row
+MATCH (a:LifeEpisode {episode_id:row.source_episode_id})
+MATCH (b:LifeEpisode {episode_id:row.target_episode_id})
+MERGE (a)-[r:BIOGRAPHICAL_NEXT]->(b)
+SET r.person_entity_id=row.person_entity_id,
+    r.basis=row.basis,
+    r.overlap_possible=row.overlap_possible,
+    r.confidence=row.confidence,
+    r.review_status=row.review_status;
+
+// 只讲述、但当前证据不足以认定为本人经历的集体历史，单独保留。
+LOAD CSV WITH HEADERS FROM 'file:///narrated_contexts.csv' AS row
+MATCH (person:Entity:BiographicalSubject {entity_id:row.person_entity_id})
+MATCH (event:EventNode {event_id:row.event_id})
+MERGE (person)-[r:NARRATED_CONTEXT]->(event)
+SET r.context_order=toInteger(row.context_order),
+    r.relation_type=row.relation_type,
+    r.review_status=row.review_status;
 
 LOAD CSV WITH HEADERS FROM 'file:///time_expressions.csv' AS row
 MERGE (t:TimeExpression {time_expression_id:row.time_expression_id})

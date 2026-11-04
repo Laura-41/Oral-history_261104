@@ -246,3 +246,72 @@ Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed with 
 2026-11-04 07:39:58.284+0000 INFO  Neo4j Server shutdown initiated by request
 2026-11-04 07:39:58.289+0000 INFO  Stopping...
 2026-11-04 07:40:09.345+0000 INFO  Stopped.
+2026-11-04 08:45:13.309+0000 INFO  Logging config in use: File '/tmp/oral_history_neo4j_demo/conf/user-logs.xml'
+2026-11-04 08:45:13.317+0000 INFO  Starting...
+2026-11-04 08:45:14.282+0000 INFO  This instance is ServerId{9f17f619} (9f17f619-8eb2-458b-8422-5a289768b354)
+2026-11-04 08:45:15.061+0000 INFO  ======== Neo4j 2026.05.0 ========
+2026-11-04 08:45:15.620+0000 INFO  X-Forward header processing enabled with security controls
+2026-11-04 08:45:15.620+0000 WARN  SECURITY WARNING: X-Forward headers accepted from any source - configure allow_proxies
+2026-11-04 08:45:15.621+0000 WARN  SECURITY WARNING: X-Forward headers accept any hostname - configure allow_hosts
+2026-11-04 08:45:16.383+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-11-04 08:45:16.670+0000 INFO  Bolt enabled on localhost:7687.
+2026-11-04 08:45:16.677+0000 INFO  Fleet discovery broadcasts have been enabled for 1 network: 172.20.10.15
+2026-11-04 08:45:17.387+0000 INFO  This server has built-in support for online monitoring through Fleet Manager. Visit https://console.neo4j.io to get started!
+2026-11-04 08:45:17.753+0000 INFO  HTTP enabled on 127.0.0.1:7474.
+2026-11-04 08:45:17.753+0000 INFO  Remote interface available at http://127.0.0.1:7474/
+2026-11-04 08:45:17.754+0000 INFO  id: F3F45208811DA769303091343946464AF3187D0650A1B1DA041508609D783D82
+2026-11-04 08:45:17.755+0000 INFO  name: system
+2026-11-04 08:45:17.755+0000 INFO  creationDate: 2026-11-03T04:33:37.611Z
+2026-11-04 08:45:17.755+0000 INFO  Started.
+2026-11-04 09:10:06.376+0000 INFO  Neo4j Server shutdown initiated by request
+2026-11-04 09:10:06.379+0000 INFO  Stopping...
+2026-11-04 09:10:17.323+0000 INFO  Stopped.
+2026-11-04 09:22:35.213+0000 INFO  Logging config in use: File '/tmp/oral_history_neo4j_demo/conf/user-logs.xml'
+2026-11-04 09:22:35.220+0000 INFO  Starting...
+2026-11-04 09:22:36.091+0000 INFO  This instance is ServerId{9f17f619} (9f17f619-8eb2-458b-8422-5a289768b354)
+2026-11-04 09:22:36.919+0000 INFO  ======== Neo4j 2026.05.0 ========
+2026-11-04 09:22:37.517+0000 INFO  X-Forward header processing enabled with security controls
+2026-11-04 09:22:37.517+0000 WARN  SECURITY WARNING: X-Forward headers accepted from any source - configure allow_proxies
+2026-11-04 09:22:37.519+0000 WARN  SECURITY WARNING: X-Forward headers accept any hostname - configure allow_hosts
+2026-11-04 09:22:38.266+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-11-04 09:22:49.499+0000 ERROR Failed to start Neo4j on 127.0.0.1:7474.
+java.lang.RuntimeException: Error starting Neo4j database server at /Users/yuqi/Desktop/硕士毕业论文/2609/0920_01/现行标注/neo4j_demo/data/databases
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:291)
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:225)
+	at org.neo4j.server.CommunityBootstrapper.createNeo(CommunityBootstrapper.java:39)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:200)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:143)
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:106)
+	at org.neo4j.server.Neo4jCommunity.main(Neo4jCommunity.java:30)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.bolt.protocol.common.connector.netty.SocketNettyConnector@37c45154' was successfully initialized, but failed to start. Please see the attached cause exception "bind(..) failed with error(-1): Operation not permitted".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:364)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:91)
+	at org.neo4j.bolt.BoltServer.start(BoltServer.java:444)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:347)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:91)
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:282)
+	... 6 more
+Caused by: org.neo4j.configuration.helpers.PortBindException: An error occurred while trying to bind to the socket /127.0.0.1:7687
+	at org.neo4j.bolt.protocol.common.connector.netty.AbstractNettyConnector.start(AbstractNettyConnector.java:229)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:347)
+	... 11 more
+Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed with error(-1): Operation not permitted
+2026-11-04 09:22:49.500+0000 INFO  Neo4j Server shutdown initiated by request
+2026-11-04 09:22:49.501+0000 INFO  Stopped.
+2026-11-04 09:55:11.064+0000 INFO  Logging config in use: File '/tmp/oral_history_neo4j_demo/conf/user-logs.xml'
+2026-11-04 09:55:11.070+0000 INFO  Starting...
+2026-11-04 09:55:11.798+0000 INFO  This instance is ServerId{9f17f619} (9f17f619-8eb2-458b-8422-5a289768b354)
+2026-11-04 09:55:12.470+0000 INFO  ======== Neo4j 2026.05.0 ========
+2026-11-04 09:55:13.057+0000 INFO  X-Forward header processing enabled with security controls
+2026-11-04 09:55:13.057+0000 WARN  SECURITY WARNING: X-Forward headers accepted from any source - configure allow_proxies
+2026-11-04 09:55:13.057+0000 WARN  SECURITY WARNING: X-Forward headers accept any hostname - configure allow_hosts
+2026-11-04 09:55:13.803+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-11-04 09:55:14.095+0000 INFO  Bolt enabled on localhost:7687.
+2026-11-04 09:55:14.102+0000 INFO  Fleet discovery broadcasts have been enabled for 1 network: 10.203.255.255
+2026-11-04 09:55:14.810+0000 INFO  This server has built-in support for online monitoring through Fleet Manager. Visit https://console.neo4j.io to get started!
+2026-11-04 09:55:15.112+0000 INFO  HTTP enabled on 127.0.0.1:7474.
+2026-11-04 09:55:15.113+0000 INFO  Remote interface available at http://127.0.0.1:7474/
+2026-11-04 09:55:15.114+0000 INFO  id: F3F45208811DA769303091343946464AF3187D0650A1B1DA041508609D783D82
+2026-11-04 09:55:15.114+0000 INFO  name: system
+2026-11-04 09:55:15.114+0000 INFO  creationDate: 2026-11-03T04:33:37.611Z
+2026-11-04 09:55:15.114+0000 INFO  Started.

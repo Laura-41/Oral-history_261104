@@ -1,7 +1,7 @@
 doc_id,title,interviewee,interview_date,visit_no,version,source_file,total_characters,data_role,include_in_study,review_status
-CHF-V1-01,陈海峰一访01,陈海峰,2010-01-24,1,二校后 阅读版,0920_01/语料/C 陈海峰_4+8+23/1访/01.陈海峰（一访）（二校后 阅读版）.docx,7700,DEVELOPMENT,YES,MODEL_CANDIDATE
-CRT-01,陈锐霆090422第01份,陈锐霆,2009-04-20,090422,二校后 阅读版,0920_01/语料/C 陈锐霆_15/01.陈锐霆 090422（二校后 阅读版）.docx,5137,DEVELOPMENT,YES,MODEL_CANDIDATE
-CHF-V2-01,陈海峰二访01,陈海峰,2010-02-27,2,二校后 阅读版,0920_01/语料/C 陈海峰_4+8+23/2访/01.陈海峰（二访）（二校后 阅读版）.docx,8538,DEVELOPMENT,YES,MODEL_CANDIDATE
-CHF-V3-01,陈海峰三访01,陈海峰,2011-03-13,3,三校后 阅读版（由旧版DOC转换）,0920_01/语料/C 陈海峰_4+8+23/3访/01.陈海峰（三访）20110808（三校后 阅读版）.doc,8257,DEVELOPMENT,YES,MODEL_CANDIDATE
-CRT-02,陈锐霆090422第02份,陈锐霆,2009-04-20,090422-02,二校后 阅读版,0920_01/语料/C 陈锐霆_15/02.陈锐霆 090422（二校后 阅读版）.docx,5177,DEVELOPMENT,YES,MODEL_CANDIDATE
-YYS-01,杨永松100506第01份,杨永松,2010-04-27,1,二校后 阅读版,0920_01/语料/Y 杨永松_10/01.杨永松100506（二校后 阅读版）.docx,5400,DEVELOPMENT,YES,MODEL_CANDIDATE
+CHF-V1-01,陈海峰一访01,陈海峰,2010-01-24,1,二校后 阅读版,0920_01/语料/C 陈海峰_4+8+23/1访/01.陈海峰（一访）（二校后 阅读版）.docx,7700,WORKFLOW_DEMO,YES,CONFIRMED
+CRT-01,陈锐霆090422第01份,陈锐霆,2009-04-20,090422,二校后 阅读版,0920_01/语料/C 陈锐霆_15/01.陈锐霆 090422（二校后 阅读版）.docx,5137,WORKFLOW_DEMO,YES,CONFIRMED
+CHF-V2-01,陈海峰二访01,陈海峰,2010-02-27,2,二校后 阅读版,0920_01/语料/C 陈海峰_4+8+23/2访/01.陈海峰（二访）（二校后 阅读版）.docx,8538,WORKFLOW_DEMO,YES,CONFIRMED
+CHF-V3-01,陈海峰三访01,陈海峰,2011-03-13,3,三校后 阅读版（由旧版DOC转换）,0920_01/语料/C 陈海峰_4+8+23/3访/01.陈海峰（三访）20110808（三校后 阅读版）.doc,8257,WORKFLOW_DEMO,YES,CONFIRMED
+CRT-02,陈锐霆090422第02份,陈锐霆,2009-04-20,090422-02,二校后 阅读版,0920_01/语料/C 陈锐霆_15/02.陈锐霆 090422（二校后 阅读版）.docx,5177,WORKFLOW_DEMO,YES,CONFIRMED
+YYS-01,杨永松100506第01份,杨永松,2010-04-27,1,二校后 阅读版,0920_01/语料/Y 杨永松_10/01.杨永松100506（二校后 阅读版）.docx,5400,WORKFLOW_DEMO,YES,CONFIRMED
