@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import crypto from "node:crypto";
 import { SpreadsheetFile, Workbook } from "@oai/artifact-tool";
 
 const workspace = "/Users/yuqi/Desktop/硕士毕业论文/2609";
@@ -71,12 +72,31 @@ async function walk(dir) {
   for (const entry of entries) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) files.push(...await walk(full));
-    else if (entry.isFile() && entry.name.toLowerCase().endsWith(".docx") && !entry.name.startsWith(".~")) files.push(full);
+    else if (
+      entry.isFile()
+      && [".doc", ".docx"].includes(path.extname(entry.name).toLowerCase())
+      && !entry.name.startsWith(".~")
+    ) files.push(full);
   }
   return files.sort((a, b) => a.localeCompare(b, "zh-CN"));
 }
 
-function corpusRecord(file) {
+const workflowDemoPaths = new Set([
+  "C 陈海峰_4+8+23/1访/01.陈海峰（一访）（二校后 阅读版）.docx",
+  "C 陈海峰_4+8+23/2访/01.陈海峰（二访）（二校后 阅读版）.docx",
+  "C 陈海峰_4+8+23/3访/01.陈海峰（三访）20110808（三校后 阅读版）.doc",
+  "C 陈锐霆_15/01.陈锐霆 090422（二校后 阅读版）.docx",
+  "C 陈锐霆_15/02.陈锐霆 090422（二校后 阅读版）.docx",
+  "Y 杨永松_10/01.杨永松100506（二校后 阅读版）.docx"
+]);
+
+const batch01Paths = new Set([
+  "C 陈海峰_4+8+23/1访/02.陈海峰（一访）（一校后 阅读版）.docx",
+  "C 陈锐霆_15/03.陈锐霆 090423（二校后 阅读版）.docx",
+  "Y 杨永松_10/02.杨永松100506（二校后 阅读版）.docx"
+]);
+
+async function corpusRecord(file) {
   const rel = path.relative(corpusRoot, file);
   const name = path.basename(file);
   const no = (name.match(/^(\d+)\./) || [null, ""])[1];
@@ -97,8 +117,41 @@ function corpusRecord(file) {
     visit = name.match(/100507/) ? "100507" : name.match(/100506/) ? "100506" : "";
   }
   const docId = prefix === "CHF" ? `${prefix}-V${visit}-${no}` : `${prefix}-${no}`;
-  const isPilot = name === "01.陈海峰（一访）（二校后 阅读版）.docx" || name === "01.陈锐霆 090422（二校后 阅读版）.docx";
-  return [docId, interviewee, visit, no, name, rel, "VALID", isPilot ? "DEVELOPMENT" : "UNASSIGNED", "YES", "", "", isPilot ? "两份人工试标语料" : "正式纳入研究，数据角色待分配"];
+  const sourceFormat = path.extname(file).slice(1).toUpperCase();
+  const isDemo = workflowDemoPaths.has(rel);
+  const isBatch01 = batch01Paths.has(rel);
+  const convertedDemoPath = path.join(workspace, "0920_01/现行标注/04_陈海峰三访01/source_converted.docx");
+  let conversionStatus = "NOT_REQUIRED";
+  let versionNote = "";
+  if (sourceFormat === "DOC") {
+    if (isDemo && rel.includes("3访/01.")) {
+      try {
+        await fs.access(convertedDemoPath);
+        conversionStatus = "CONVERTED_COPY_AVAILABLE";
+        versionNote = "旧版DOC；现行标注已有转换副本";
+      } catch {
+        conversionStatus = "CONVERSION_REQUIRED";
+        versionNote = "旧版DOC；待生成转换副本";
+      }
+    } else {
+      conversionStatus = "CONVERSION_REQUIRED";
+      versionNote = "旧版DOC；待生成转换副本";
+    }
+  }
+  const sha256 = crypto.createHash("sha256").update(await fs.readFile(file)).digest("hex");
+  const dataRole = isDemo ? "WORKFLOW_DEMO" : "BATCH_APPLICATION";
+  const processingStatus = isDemo ? "CONFIRMED" : isBatch01 ? "VALIDATED" : "PENDING";
+  const batchId = isDemo ? "DEMO" : isBatch01 ? "BATCH01" : "";
+  const notes = isDemo
+    ? "六份人工标注工作流Demo"
+    : isBatch01
+      ? "首批正式语料；窗口抽取与文档级回归已通过"
+      : "后续正式批处理；待分批分配";
+  return [
+    docId, interviewee, visit, no, name, rel, sourceFormat,
+    "SOURCE_PRESENT", conversionStatus, dataRole, processingStatus,
+    batchId, "YES", "", sha256, versionNote, notes
+  ];
 }
 
 const schema = {
@@ -155,7 +208,7 @@ function styleTable(sheet, headers, dataRowCount = 0) {
     body.format.wrapText = false;
   }
   used.format.autofitColumns();
-  const longFields = ["verbatim_text", "normalized_text", "annotation_text", "boundary_note", "source_file", "filename", "relative_path", "notes", "description", "role_label"];
+  const longFields = ["verbatim_text", "normalized_text", "annotation_text", "boundary_note", "source_file", "filename", "relative_path", "sha256", "version_note", "notes", "description", "role_label"];
   for (let i = 0; i < headers.length; i++) {
     const c = sheet.getRange(`${colLetter(i + 1)}1:${colLetter(i + 1)}${lastRow}`);
     const isLong = longFields.includes(headers[i]);
@@ -178,8 +231,13 @@ await fs.writeFile(path.join(outputDir, "annotation_bundle.schema.json"), JSON.s
 await fs.writeFile(path.join(outputDir, "enumerations.json"), JSON.stringify(enumerations, null, 2) + "\n", "utf8");
 
 const corpusFiles = await walk(corpusRoot);
-const inventoryHeaders = ["doc_id", "interviewee", "visit_no", "file_no", "filename", "relative_path", "physical_status", "data_role", "include_in_study", "total_characters", "version_note", "notes"];
-const inventoryRows = corpusFiles.map(corpusRecord);
+const inventoryHeaders = [
+  "doc_id", "interviewee", "visit_no", "file_no", "filename", "relative_path",
+  "source_format", "physical_status", "conversion_status", "data_role",
+  "processing_status", "batch_id", "include_in_study", "total_characters",
+  "sha256", "version_note", "notes"
+];
+const inventoryRows = await Promise.all(corpusFiles.map(corpusRecord));
 await fs.writeFile(path.join(outputDir, "corpus_inventory.csv"), `\uFEFF${[csvLine(inventoryHeaders), ...inventoryRows.map(csvLine)].join("\n")}\n`, "utf8");
 
 const workbook = Workbook.create();
